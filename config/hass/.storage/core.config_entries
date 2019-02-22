@@ -28,9 +28,22 @@
                     "port": 1883
                 },
                 "domain": "mqtt",
-                "entry_id": "a42d262d1ceb494b9ee53b3a817b6e8a",
+                "entry_id": "9e281c2b68d04762833c0bb95b19ce98",
                 "source": "user",
                 "title": "mqtt",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "192.168.1.90",
+                    "password": "s3M322AWyAuV",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "cb2a4279f45b4d9fb1ceb138d26a682b",
+                "source": "user",
+                "title": "poetest0",
                 "version": 1
             }
         ]

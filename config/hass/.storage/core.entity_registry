@@ -18,6 +18,15 @@
                 "name": null,
                 "platform": "mqtt",
                 "unique_id": "ESPbinary_sensorinput_4"
+            },
+            {
+                "config_entry_id": "cb2a4279f45b4d9fb1ceb138d26a682b",
+                "device_id": "1a4f56e676f1467fbf604a8babc27b65",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.test_button",
+                "name": null,
+                "platform": "esphome",
+                "unique_id": "poetest0binary_sensortest_button"
             }
         ]
     },
