@@ -1,0 +1,26 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": "f3e76c77f9a94fee944333381d9e3b96",
+                "device_id": "b1a5c672a70946ad8cf49dae158fb214",
+                "disabled_by": null,
+                "entity_id": "switch.led",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "ESPswitchled"
+            },
+            {
+                "config_entry_id": "b3c9d5cf7385409897631dc3a4b28a84",
+                "device_id": "b1a5c672a70946ad8cf49dae158fb214",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.input_4",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "ESPbinary_sensorinput_4"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

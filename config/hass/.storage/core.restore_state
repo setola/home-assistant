@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-02-20T16:29:02.003769+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "led"
+                },
+                "context": {
+                    "id": "32953d88c21a4d65b4874546c21277f3",
+                    "user_id": null
+                },
+                "entity_id": "switch.led",
+                "last_changed": "2019-02-20T16:24:11.539613+00:00",
+                "last_updated": "2019-02-20T16:24:11.539613+00:00",
+                "state": "off"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

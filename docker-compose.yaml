@@ -1,0 +1,39 @@
+version: "3"
+
+networks:
+  hass:
+    external: false
+
+services:
+  hass:
+    image: homeassistant/home-assistant
+    networks:
+      - hass
+    ports:
+      - 8123:8123
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./config/hass:/config
+  mqtt:
+    image: eclipse-mosquitto
+    networks:
+      - hass
+    ports:
+      - 1883:1883
+      - 1884:1884
+      - 9001:9001
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./config/mqtt/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./data/mqtt:/mosquitto/data
+  esphome:
+    image: esphome/esphome:beta
+    networks:
+      - hass
+    ports:
+      - 6052:6052
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./config/esphome:/config
+    devices:
+      - /dev/ttyUSB0

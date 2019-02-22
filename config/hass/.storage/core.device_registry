@@ -1,0 +1,28 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "f3e76c77f9a94fee944333381d9e3b96",
+                    "b3c9d5cf7385409897631dc3a4b28a84"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "b1a5c672a70946ad8cf49dae158fb214",
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "240ac49e1f6c"
+                    ]
+                ],
+                "manufacturer": "espressif",
+                "model": "Espressif ESP-WROVER-KIT",
+                "name": "test1",
+                "sw_version": "esphomelib v1.10.1 Feb 20 2019, 15:06:34"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

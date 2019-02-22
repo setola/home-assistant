@@ -1,0 +1,40 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "controller": {
+                        "host": "192.168.1.11",
+                        "password": "s3M322AWyAuV",
+                        "port": 7443,
+                        "site": "d6a4nahc",
+                        "username": "admin",
+                        "verify_ssl": false
+                    },
+                    "poe_control": true
+                },
+                "domain": "unifi",
+                "entry_id": "f7bb1c4ed5924c1d908e09615f42acda",
+                "source": "user",
+                "title": "Digital Mind - Sede Marcon",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "mqtt",
+                    "discovery": true,
+                    "port": 1883
+                },
+                "domain": "mqtt",
+                "entry_id": "a42d262d1ceb494b9ee53b3a817b6e8a",
+                "source": "user",
+                "title": "mqtt",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
