@@ -27,7 +27,7 @@ services:
       - ./config/mqtt/mosquitto.conf:/mosquitto/config/mosquitto.conf
       - ./data/mqtt:/mosquitto/data
   esphome:
-    image: esphome/esphome:beta
+    image: esphome/esphome
     networks:
       - hass
     ports:
@@ -35,5 +35,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./config/esphome:/config
-    devices:
-      - /dev/ttyUSB0
+    environment:
+      ESPHOME_DASHBOARD_USE_PING: "true"
+#    devices:
+#      - /dev/ttyUSB0

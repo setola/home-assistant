@@ -2,25 +2,6 @@
     "data": {
         "entries": [
             {
-                "connection_class": "local_poll",
-                "data": {
-                    "controller": {
-                        "host": "192.168.1.11",
-                        "password": "s3M322AWyAuV",
-                        "port": 7443,
-                        "site": "d6a4nahc",
-                        "username": "admin",
-                        "verify_ssl": false
-                    },
-                    "poe_control": true
-                },
-                "domain": "unifi",
-                "entry_id": "f7bb1c4ed5924c1d908e09615f42acda",
-                "source": "user",
-                "title": "Digital Mind - Sede Marcon",
-                "version": 1
-            },
-            {
                 "connection_class": "local_push",
                 "data": {
                     "broker": "mqtt",
@@ -29,6 +10,7 @@
                 },
                 "domain": "mqtt",
                 "entry_id": "9e281c2b68d04762833c0bb95b19ce98",
+                "options": {},
                 "source": "user",
                 "title": "mqtt",
                 "version": 1
@@ -42,6 +24,7 @@
                 },
                 "domain": "esphome",
                 "entry_id": "cb2a4279f45b4d9fb1ceb138d26a682b",
+                "options": {},
                 "source": "user",
                 "title": "poetest0",
                 "version": 1
