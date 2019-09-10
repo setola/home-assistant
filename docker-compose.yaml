@@ -14,6 +14,11 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./config/hass:/config
+#    user: "1000:1000"
+    deploy:
+      restart_policy:
+        delay: 5s
+        max_attempts: 3
   mqtt:
     image: eclipse-mosquitto
     networks:
@@ -26,6 +31,11 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ./config/mqtt/mosquitto.conf:/mosquitto/config/mosquitto.conf
       - ./data/mqtt:/mosquitto/data
+#    user: "1000:1000"
+    deploy:
+      restart_policy:
+        delay: 5s
+        max_attempts: 3
   esphome:
     image: esphome/esphome
     networks:
@@ -37,5 +47,8 @@ services:
       - ./config/esphome:/config
     environment:
       ESPHOME_DASHBOARD_USE_PING: "true"
-#    devices:
-#      - /dev/ttyUSB0
+#    user: "1000:1000"
+    deploy:
+      restart_policy:
+        delay: 5s
+        max_attempts: 3

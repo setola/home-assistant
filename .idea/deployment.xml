@@ -7,6 +7,11 @@
           <mappings>
             <mapping deploy="/home/setola/home-assistant" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/setola/home-assistant/config/esphome/poetest0" />
+            <excludedPath path="/home/setola/home-assistant/config/esphome/wesp0" />
+            <excludedPath path="/home/setola/home-assistant/config/esphome/.esphome" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

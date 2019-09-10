@@ -1,1 +1,12 @@
-[]
+- id: '1566854388818'
+  alias: Toggle Luce Test 0
+  trigger:
+  - entity_id: binary_sensor.test_button
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data:
+      entity_id: light.test_blue_led
+    service: light.toggle

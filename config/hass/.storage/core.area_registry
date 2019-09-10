@@ -1,0 +1,20 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "58d2743876f349d1b6e3e3ec09c57b9e",
+                "name": "Piano Terra"
+            },
+            {
+                "id": "34f71fcbe31547faaba3cc0c0f1352b4",
+                "name": "Piano Primo"
+            },
+            {
+                "id": "34858433a4db4631853065de6f1974e2",
+                "name": "Sottotetto"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}

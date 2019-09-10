@@ -1,19 +1,22 @@
 {
     "data": [
         {
-            "last_seen": "2019-02-20T16:29:02.003769+00:00",
+            "last_seen": "2019-09-08T00:00:09.538681+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "led"
+                    "friendly_name": "Toggle Luce Test 0",
+                    "id": "1566854388818",
+                    "last_triggered": "2019-09-07T18:11:42.441716+00:00"
                 },
                 "context": {
-                    "id": "32953d88c21a4d65b4874546c21277f3",
+                    "id": "a8f062a3b1904479acd3a8f15ce35fbb",
+                    "parent_id": "aaef9ff3265e4b9db91db08376e29124",
                     "user_id": null
                 },
-                "entity_id": "switch.led",
-                "last_changed": "2019-02-20T16:24:11.539613+00:00",
-                "last_updated": "2019-02-20T16:24:11.539613+00:00",
-                "state": "off"
+                "entity_id": "automation.toggle_luce_test_0",
+                "last_changed": "2019-09-07T09:12:35.964615+00:00",
+                "last_updated": "2019-09-07T18:11:42.442064+00:00",
+                "state": "on"
             }
         }
     ],

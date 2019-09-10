@@ -2,31 +2,49 @@
     "data": {
         "entities": [
             {
-                "config_entry_id": "f3e76c77f9a94fee944333381d9e3b96",
-                "device_id": "b1a5c672a70946ad8cf49dae158fb214",
-                "disabled_by": null,
-                "entity_id": "switch.led",
-                "name": null,
-                "platform": "mqtt",
-                "unique_id": "ESPswitchled"
-            },
-            {
-                "config_entry_id": "b3c9d5cf7385409897631dc3a4b28a84",
-                "device_id": "b1a5c672a70946ad8cf49dae158fb214",
-                "disabled_by": null,
-                "entity_id": "binary_sensor.input_4",
-                "name": null,
-                "platform": "mqtt",
-                "unique_id": "ESPbinary_sensorinput_4"
-            },
-            {
-                "config_entry_id": "cb2a4279f45b4d9fb1ceb138d26a682b",
+                "config_entry_id": "fa330dc5e76c4e0ebc755771f170a2be",
                 "device_id": "1a4f56e676f1467fbf604a8babc27b65",
                 "disabled_by": null,
                 "entity_id": "binary_sensor.test_button",
                 "name": null,
                 "platform": "esphome",
                 "unique_id": "poetest0binary_sensortest_button"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
+            },
+            {
+                "config_entry_id": "48dc902b072f424b8d948cbe78736615",
+                "device_id": "c8d995bbd5e34014b6df86a984336b44",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.test_button_5",
+                "name": null,
+                "platform": "esphome",
+                "unique_id": "wesp0binary_sensortest_button"
+            },
+            {
+                "config_entry_id": "48dc902b072f424b8d948cbe78736615",
+                "device_id": "c8d995bbd5e34014b6df86a984336b44",
+                "disabled_by": null,
+                "entity_id": "light.desk_lamp",
+                "name": null,
+                "platform": "esphome",
+                "unique_id": "wesp0lightdesk_lamp"
+            },
+            {
+                "config_entry_id": "48dc902b072f424b8d948cbe78736615",
+                "device_id": "c8d995bbd5e34014b6df86a984336b44",
+                "disabled_by": null,
+                "entity_id": "light.test_blue_led",
+                "name": null,
+                "platform": "esphome",
+                "unique_id": "wesp0lighttest_blue_led"
             }
         ]
     },

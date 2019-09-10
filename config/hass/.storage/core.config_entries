@@ -12,21 +12,44 @@
                 "entry_id": "9e281c2b68d04762833c0bb95b19ce98",
                 "options": {},
                 "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
                 "title": "mqtt",
                 "version": 1
             },
             {
                 "connection_class": "local_push",
                 "data": {
-                    "host": "192.168.1.90",
+                    "host": "poetest0.mira.buildings.emanueletessore.com",
                     "password": "s3M322AWyAuV",
                     "port": 6053
                 },
                 "domain": "esphome",
-                "entry_id": "cb2a4279f45b4d9fb1ceb138d26a682b",
+                "entry_id": "fa330dc5e76c4e0ebc755771f170a2be",
                 "options": {},
                 "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
                 "title": "poetest0",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "wesp0.mira.buildings.emanueletessore.com",
+                    "password": "s3M322AWyAuV",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "48dc902b072f424b8d948cbe78736615",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "wesp0",
                 "version": 1
             }
         ]

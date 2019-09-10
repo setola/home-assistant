@@ -1,0 +1,36 @@
+{
+    "data": {
+        "binary_sensor": [
+            {
+                "device_class": "",
+                "is_status_binary_sensor": false,
+                "key": 248732104,
+                "name": "test button",
+                "object_id": "test_button",
+                "unique_id": "wesp0binary_sensortest_button"
+            }
+        ],
+        "device_info": {
+            "compilation_time": "Aug 26 2019, 23:13:01",
+            "esphome_version": "1.13.6",
+            "has_deep_sleep": false,
+            "mac_address": "24:0A:C4:9E:7E:DC",
+            "model": "Espressif ESP-WROVER-KIT",
+            "name": "wesp0",
+            "uses_password": true
+        },
+        "services": [],
+        "switch": [
+            {
+                "assumed_state": false,
+                "icon": "",
+                "key": 817087403,
+                "name": "Blue LED",
+                "object_id": "blue_led",
+                "unique_id": "wesp0switchblue_led"
+            }
+        ]
+    },
+    "key": "esphome.fe545e0deab34aa0b566faeeed7d90df",
+    "version": 1
+}

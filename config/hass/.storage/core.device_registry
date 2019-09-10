@@ -8,7 +8,6 @@
                     "f3e76c77f9a94fee944333381d9e3b96"
                 ],
                 "connections": [],
-                "hub_device_id": null,
                 "id": "b1a5c672a70946ad8cf49dae158fb214",
                 "identifiers": [
                     [
@@ -19,12 +18,14 @@
                 "manufacturer": "espressif",
                 "model": "Espressif ESP-WROVER-KIT",
                 "name": "test1",
-                "sw_version": "esphomelib v1.10.1 Feb 20 2019, 15:06:34"
+                "name_by_user": null,
+                "sw_version": "esphomelib v1.10.1 Feb 20 2019, 15:06:34",
+                "via_device_id": null
             },
             {
                 "area_id": null,
                 "config_entries": [
-                    "cb2a4279f45b4d9fb1ceb138d26a682b"
+                    "fa330dc5e76c4e0ebc755771f170a2be"
                 ],
                 "connections": [
                     [
@@ -32,13 +33,34 @@
                         "24:0a:c4:9e:1f:6c"
                     ]
                 ],
-                "hub_device_id": null,
                 "id": "1a4f56e676f1467fbf604a8babc27b65",
                 "identifiers": [],
                 "manufacturer": "espressif",
                 "model": "Espressif ESP-WROVER-KIT",
                 "name": "poetest0",
-                "sw_version": "1.11.0b3 (Feb 22 2019, 11:17:50)"
+                "name_by_user": null,
+                "sw_version": "1.13.6 (Aug 14 2019, 05:55:34)",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "48dc902b072f424b8d948cbe78736615"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "24:0a:c4:9e:7e:dc"
+                    ]
+                ],
+                "id": "c8d995bbd5e34014b6df86a984336b44",
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "Espressif ESP-WROVER-KIT",
+                "name": "wesp0",
+                "name_by_user": null,
+                "sw_version": "1.13.6 (Sep  7 2019, 16:30:25)",
+                "via_device_id": null
             }
         ]
     },

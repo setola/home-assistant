@@ -39,6 +39,6 @@ binary_sensor:
   - platform: gpio
     name: "test button"
     pin:
-      number: GPIO34
+      number: GPIO4
       inverted: True
       mode: INPUT_PULLUP
