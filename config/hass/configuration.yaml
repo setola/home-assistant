@@ -13,3 +13,9 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+scene: !include scenes.yaml
+
+opnsense:
+  url: https://opnsense/api
+  api_secret: !secret opnsense_secret
+  api_key: !secret opnsense_key

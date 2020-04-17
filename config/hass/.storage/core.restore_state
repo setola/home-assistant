@@ -1,22 +1,27 @@
 {
     "data": [
         {
-            "last_seen": "2019-09-08T00:00:09.538681+00:00",
+            "last_seen": "2020-04-17T19:25:42.008074+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "Toggle Luce Test 0",
-                    "id": "1566854388818",
-                    "last_triggered": "2019-09-07T18:11:42.441716+00:00"
+                    "editable": true,
+                    "friendly_name": "Setola",
+                    "gps_accuracy": 0,
+                    "id": "setola",
+                    "latitude": 45.437433638796676,
+                    "longitude": 12.128085494041445,
+                    "source": "device_tracker.a0_28_ed_9b_eb_5c",
+                    "user_id": "050522b415c4463fb8e7cae65184c124"
                 },
                 "context": {
-                    "id": "a8f062a3b1904479acd3a8f15ce35fbb",
-                    "parent_id": "aaef9ff3265e4b9db91db08376e29124",
+                    "id": "5fb4cc2454a2445c9a44636b3e94cfa7",
+                    "parent_id": null,
                     "user_id": null
                 },
-                "entity_id": "automation.toggle_luce_test_0",
-                "last_changed": "2019-09-07T09:12:35.964615+00:00",
-                "last_updated": "2019-09-07T18:11:42.442064+00:00",
-                "state": "on"
+                "entity_id": "person.setola",
+                "last_changed": "2020-04-17T19:25:23.875537+00:00",
+                "last_updated": "2020-04-17T19:25:23.875537+00:00",
+                "state": "home"
             }
         }
     ],

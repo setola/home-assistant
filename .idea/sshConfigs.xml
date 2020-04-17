@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="udoox86" id="8084809a-11b0-4a4b-91c4-e445feff8a99" keyPath="C:\Users\setol\.ssh\setola@ilgemini.ppk" port="22" customName="udoox86" nameFormat="CUSTOM" username="setola" />
+      <sshConfig host="udoox86" id="e6bda55d-0454-4714-b1f9-dfc50895c0f2" keyPath="C:\Users\setol\.ssh\setola@ilgemini.ppk" port="22" customName="udoox86" nameFormat="CUSTOM" username="setola" />
+    </configs>
+  </component>
+</project>

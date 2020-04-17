@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="udoox86">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="udoox86" autoUploadExternalChanges="true" showNewOnTargetInSync="false">
     <serverData>
       <paths name="udoox86">
         <serverdata>
           <mappings>
             <mapping deploy="/home/setola/home-assistant" local="$PROJECT_DIR$" web="/" />
           </mappings>
-          <excludedPaths>
-            <excludedPath path="/home/setola/home-assistant/config/esphome/poetest0" />
-            <excludedPath path="/home/setola/home-assistant/config/esphome/wesp0" />
-            <excludedPath path="/home/setola/home-assistant/config/esphome/.esphome" />
-          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

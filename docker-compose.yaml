@@ -1,4 +1,4 @@
-version: "3"
+version: "3.7"
 
 networks:
   hass:
@@ -6,6 +6,7 @@ networks:
 
 services:
   hass:
+    restart: always
     image: homeassistant/home-assistant
     networks:
       - hass
@@ -14,29 +15,12 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./config/hass:/config
-#    user: "1000:1000"
-    deploy:
-      restart_policy:
-        delay: 5s
-        max_attempts: 3
-  mqtt:
-    image: eclipse-mosquitto
-    networks:
-      - hass
-    ports:
-      - 1883:1883
-      - 1884:1884
-      - 9001:9001
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - ./config/mqtt/mosquitto.conf:/mosquitto/config/mosquitto.conf
-      - ./data/mqtt:/mosquitto/data
-#    user: "1000:1000"
-    deploy:
-      restart_policy:
-        delay: 5s
-        max_attempts: 3
+#    deploy:
+#      restart_policy:
+#        delay: 5s
+#        max_attempts: 3
   esphome:
+    restart: always
     image: esphome/esphome
     networks:
       - hass
@@ -45,10 +29,11 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./config/esphome:/config
+      - ./config/hass/secrets.yaml:/config/secrets.yaml
     environment:
       ESPHOME_DASHBOARD_USE_PING: "true"
-#    user: "1000:1000"
-    deploy:
-      restart_policy:
-        delay: 5s
-        max_attempts: 3
+    user: "1000:1000"
+#    deploy:
+#      restart_policy:
+#        delay: 5s
+#        max_attempts: 3

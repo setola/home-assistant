@@ -1,9 +1,11 @@
 {
     "data": {
         "done": [
-            "user"
+            "user",
+            "core_config",
+            "integration"
         ]
     },
     "key": "onboarding",
-    "version": 1
+    "version": 3
 }

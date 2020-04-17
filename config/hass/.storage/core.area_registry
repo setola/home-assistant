@@ -2,16 +2,16 @@
     "data": {
         "areas": [
             {
-                "id": "58d2743876f349d1b6e3e3ec09c57b9e",
-                "name": "Piano Terra"
+                "id": "675022398bb34482a1fb15c9b4158f72",
+                "name": "Soggiorno"
             },
             {
-                "id": "34f71fcbe31547faaba3cc0c0f1352b4",
-                "name": "Piano Primo"
+                "id": "f688e9e2e33842d5a375bad46ad8877a",
+                "name": "Cucina"
             },
             {
-                "id": "34858433a4db4631853065de6f1974e2",
-                "name": "Sottotetto"
+                "id": "63127076da2f446aafc3e8c865cbb27c",
+                "name": "Camera da letto"
             }
         ]
     },

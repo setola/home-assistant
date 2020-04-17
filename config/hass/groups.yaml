@@ -1,0 +1,5 @@
+luci_sala_lan:
+  name: Luci Sala LAN
+  entities:
+    - light.novostella_flood_light_1
+    - light.novostella_flood_light_2

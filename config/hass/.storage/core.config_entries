@@ -2,54 +2,55 @@
     "data": {
         "entries": [
             {
-                "connection_class": "local_push",
+                "connection_class": "cloud_poll",
                 "data": {
-                    "broker": "mqtt",
-                    "discovery": true,
-                    "port": 1883
+                    "track_home": true
                 },
-                "domain": "mqtt",
-                "entry_id": "9e281c2b68d04762833c0bb95b19ce98",
+                "domain": "met",
+                "entry_id": "a12d9f8c86c641e2b7d79a4c670c35be",
                 "options": {},
-                "source": "user",
+                "source": "onboarding",
                 "system_options": {
                     "disable_new_entities": false
                 },
-                "title": "mqtt",
+                "title": "Home",
+                "unique_id": null,
                 "version": 1
             },
             {
                 "connection_class": "local_push",
                 "data": {
-                    "host": "poetest0.mira.buildings.emanueletessore.com",
-                    "password": "s3M322AWyAuV",
+                    "host": "novoflood2.mira.buildings.emanueletessore.com",
+                    "password": "",
                     "port": 6053
                 },
                 "domain": "esphome",
-                "entry_id": "fa330dc5e76c4e0ebc755771f170a2be",
+                "entry_id": "6b0fd34accbd4956809addc911b46490",
                 "options": {},
                 "source": "user",
                 "system_options": {
                     "disable_new_entities": false
                 },
-                "title": "poetest0",
+                "title": "novoflood2",
+                "unique_id": null,
                 "version": 1
             },
             {
                 "connection_class": "local_push",
                 "data": {
-                    "host": "wesp0.mira.buildings.emanueletessore.com",
-                    "password": "s3M322AWyAuV",
+                    "host": "novoflood1.mira.buildings.emanueletessore.com",
+                    "password": "",
                     "port": 6053
                 },
                 "domain": "esphome",
-                "entry_id": "48dc902b072f424b8d948cbe78736615",
+                "entry_id": "076920868859451ea8d4b020933a88e9",
                 "options": {},
                 "source": "user",
                 "system_options": {
                     "disable_new_entities": false
                 },
-                "title": "wesp0",
+                "title": "novoflood1",
+                "unique_id": null,
                 "version": 1
             }
         ]

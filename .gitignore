@@ -1,1 +1,5 @@
 *.log
+/config/esphome/.esphome
+/config/hass/.storage
+/config/hass/.HA_VERSION
+/config/hass/secrets.yaml

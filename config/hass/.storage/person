@@ -1,0 +1,16 @@
+{
+    "data": {
+        "items": [
+            {
+                "device_trackers": [
+                    "device_tracker.a0_28_ed_9b_eb_5c"
+                ],
+                "id": "setola",
+                "name": "Emanuele",
+                "user_id": "050522b415c4463fb8e7cae65184c124"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 2
+}
