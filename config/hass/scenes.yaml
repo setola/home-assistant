@@ -108,3 +108,30 @@
       xy_color:
       - 0.323
       - 0.329
+- id: '1588015178162'
+  name: Neutral Half
+  entities:
+    light.novostella_flood_light_1:
+      effect_list:
+      - None
+      - Random
+      - Strobe
+      - Flicker
+      - Throb
+      friendly_name: Novostella Flood Light 1
+      max_mireds: 370.370361328125
+      min_mireds: 153.84616088867188
+      state: 'off'
+      supported_features: 191
+    light.novostella_flood_light_2:
+      effect_list:
+      - None
+      - Random
+      - Strobe
+      - Flicker
+      - Throb
+      friendly_name: Novostella Flood Light 2
+      max_mireds: 370.370361328125
+      min_mireds: 153.84616088867188
+      state: 'off'
+      supported_features: 191

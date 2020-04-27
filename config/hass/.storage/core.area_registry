@@ -2,15 +2,15 @@
     "data": {
         "areas": [
             {
-                "id": "675022398bb34482a1fb15c9b4158f72",
+                "id": "b807e7024dcf4c6692b1af99dbf8eba1",
                 "name": "Soggiorno"
             },
             {
-                "id": "f688e9e2e33842d5a375bad46ad8877a",
+                "id": "23f55a3395554a69af254e1e1ce849ba",
                 "name": "Cucina"
             },
             {
-                "id": "63127076da2f446aafc3e8c865cbb27c",
+                "id": "6f6c70d6329b404b9d41a6fd67fd29ea",
                 "name": "Camera da letto"
             }
         ]

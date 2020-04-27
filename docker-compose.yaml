@@ -15,10 +15,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./config/hass:/config
-#    deploy:
-#      restart_policy:
-#        delay: 5s
-#        max_attempts: 3
+
   esphome:
     restart: always
     image: esphome/esphome
@@ -32,8 +29,4 @@ services:
       - ./config/hass/secrets.yaml:/config/secrets.yaml
     environment:
       ESPHOME_DASHBOARD_USE_PING: "true"
-    user: "1000:1000"
-#    deploy:
-#      restart_policy:
-#        delay: 5s
-#        max_attempts: 3
+

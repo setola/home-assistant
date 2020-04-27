@@ -4,7 +4,8 @@
             {
                 "area_id": null,
                 "config_entries": [
-                    "6b0fd34accbd4956809addc911b46490"
+                    "6b0fd34accbd4956809addc911b46490",
+                    "84549658569e49659ea6e3569dff44ce"
                 ],
                 "connections": [
                     [
@@ -18,13 +19,14 @@
                 "model": "PLATFORMIO_ESP01_1M",
                 "name": "novoflood2",
                 "name_by_user": null,
-                "sw_version": "1.14.3 (Mar 18 2020, 14:06:03)",
+                "sw_version": "1.14.3 (Apr 27 2020, 19:27:31)",
                 "via_device_id": null
             },
             {
                 "area_id": null,
                 "config_entries": [
-                    "076920868859451ea8d4b020933a88e9"
+                    "076920868859451ea8d4b020933a88e9",
+                    "e9872e4429fa44f8a5e6259c0a0b3332"
                 ],
                 "connections": [
                     [
@@ -38,7 +40,7 @@
                 "model": "PLATFORMIO_ESP01_1M",
                 "name": "novoflood1",
                 "name_by_user": null,
-                "sw_version": "1.14.3 (Mar 18 2020, 13:59:23)",
+                "sw_version": "1.14.3 (Apr 27 2020, 19:24:54)",
                 "via_device_id": null
             }
         ]

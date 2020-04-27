@@ -5,7 +5,7 @@
   "esphome_version": "1.14.3",
   "src_version": 1,
   "arduino_version": "espressif8266@2.2.3",
-  "address": "novoflood1.local",
+  "address": "novoflood1.mira.buildings.emanueletessore.com",
   "esp_platform": "ESP8266",
   "board": "esp01_1m",
   "build_path": "/config/novoflood1",

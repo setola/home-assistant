@@ -3,7 +3,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig host="udoox86" id="8084809a-11b0-4a4b-91c4-e445feff8a99" keyPath="C:\Users\setol\.ssh\setola@ilgemini.ppk" port="22" customName="udoox86" nameFormat="CUSTOM" username="setola" />
-      <sshConfig host="udoox86" id="69aa1ca0-d3de-48fa-ad1d-531fa942f7f3" keyPath="C:\Users\setol\.ssh\setola@ilgemini.ppk" port="22" customName="udoox86" nameFormat="CUSTOM" username="setola" />
+      <sshConfig host="udoox86" id="f2de105a-27d1-4501-a3f4-e568b1de1194" keyPath="C:\Users\setol\.ssh\setola@ilgemini.ppk" port="22" customName="udoox86" nameFormat="CUSTOM" username="setola" />
     </configs>
   </component>
 </project>

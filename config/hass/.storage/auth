@@ -1,0 +1,59 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "setola"
+                },
+                "id": "7304347d71bd4edbbd8088173ff20a93",
+                "user_id": "07d9bafb9f744f428242da73b9aded94"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://udoox86:8123/",
+                "client_name": null,
+                "created_at": "2020-04-27T19:03:32.609876+00:00",
+                "id": "04b39421f0e74add835d37270625c4f1",
+                "jwt_key": "3c004baac9531a0bb78d6e52be9f25cc5cf79b327ba574b25171b089b7bce8f813189f116632b64a79632d78563dd3495a9f5b0fcb0b659972bb85f66fe8e892",
+                "last_used_at": "2020-04-27T19:03:32.610017+00:00",
+                "last_used_ip": "192.168.82.102",
+                "token": "2fbe19e090770683dbf4b039fe834e0fd6d8b4161018ebf41ba7c058bd1f5000ea1834ae1c90a6ff12e316e559dc11c2ceb6a032a1c759a01e4c47e31d2a1e11",
+                "token_type": "normal",
+                "user_id": "07d9bafb9f744f428242da73b9aded94"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "07d9bafb9f744f428242da73b9aded94",
+                "is_active": true,
+                "is_owner": true,
+                "name": "Emanuele Tessore",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}
