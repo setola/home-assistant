@@ -1,0 +1,110 @@
+- id: '1587980409887'
+  name: Neutral Full
+  entities:
+    light.novostella_flood_light_1:
+      brightness: 1
+      color_temp: 0
+      effect: None
+      effect_list:
+      - None
+      - Random
+      - Strobe
+      - Flicker
+      - Throb
+      friendly_name: Novostella Flood Light 1
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 370.370361328125
+      min_mireds: 153.84616088867188
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 191
+      white_value: 255
+      xy_color:
+      - 0.323
+      - 0.329
+    light.novostella_flood_light_2:
+      brightness: 1
+      color_temp: 0
+      effect: None
+      effect_list:
+      - None
+      - Random
+      - Strobe
+      - Flicker
+      - Throb
+      friendly_name: Novostella Flood Light 2
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 370.370361328125
+      min_mireds: 153.84616088867188
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 191
+      white_value: 255
+      xy_color:
+      - 0.323
+      - 0.329
+- id: '1587980477233'
+  name: Warm Full
+  entities:
+    light.novostella_flood_light_1:
+      brightness: 1
+      color_temp: 370
+      effect: None
+      effect_list:
+      - None
+      - Random
+      - Strobe
+      - Flicker
+      - Throb
+      friendly_name: Novostella Flood Light 1
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 370.370361328125
+      min_mireds: 153.84616088867188
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 191
+      white_value: 255
+      xy_color:
+      - 0.323
+      - 0.329
+    light.novostella_flood_light_2:
+      brightness: 1
+      color_temp: 370
+      effect: None
+      effect_list:
+      - None
+      - Random
+      - Strobe
+      - Flicker
+      - Throb
+      friendly_name: Novostella Flood Light 2
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 370.370361328125
+      min_mireds: 153.84616088867188
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 191
+      white_value: 255
+      xy_color:
+      - 0.323
+      - 0.329

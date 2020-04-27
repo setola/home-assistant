@@ -1,11 +1,11 @@
 {
     "data": [
         {
-            "last_seen": "2020-04-17T19:25:42.008074+00:00",
+            "last_seen": "2020-04-27T10:39:04.008965+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
-                    "friendly_name": "Setola",
+                    "friendly_name": "Emanuele",
                     "gps_accuracy": 0,
                     "id": "setola",
                     "latitude": 45.437433638796676,
@@ -14,13 +14,13 @@
                     "user_id": "050522b415c4463fb8e7cae65184c124"
                 },
                 "context": {
-                    "id": "5fb4cc2454a2445c9a44636b3e94cfa7",
+                    "id": "fc5ed0354d3a47a18deb6a6a0ff7c53d",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.setola",
-                "last_changed": "2020-04-17T19:25:23.875537+00:00",
-                "last_updated": "2020-04-17T19:25:23.875537+00:00",
+                "last_changed": "2020-04-27T09:54:01.880397+00:00",
+                "last_updated": "2020-04-27T09:54:01.880397+00:00",
                 "state": "home"
             }
         }

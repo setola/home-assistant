@@ -27,7 +27,7 @@
                 "icon": null,
                 "name": null,
                 "original_icon": null,
-                "original_name": "Setola",
+                "original_name": "Emanuele",
                 "platform": "person",
                 "supported_features": 0,
                 "unique_id": "setola",
@@ -227,6 +227,38 @@
                 "platform": "esphome",
                 "supported_features": 0,
                 "unique_id": "4c11ae0c8fbe-version",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "scene.neutral_white_full",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Neutral Full",
+                "platform": "homeassistant",
+                "supported_features": 0,
+                "unique_id": "1587980409887",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "scene.warm_full",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Warm Full",
+                "platform": "homeassistant",
+                "supported_features": 0,
+                "unique_id": "1587980477233",
                 "unit_of_measurement": null
             }
         ]
