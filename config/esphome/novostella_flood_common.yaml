@@ -1,8 +1,10 @@
-# Common code for Novostella 20W Flood Lights
-
 #Novostella 20W Flood Light, https://smile.amazon.com/gp/product/B07VH1VHYL
 #https://fccid.io/2AI5T-SFGD-002
 #https://blakadder.github.io/templates/novostella_20W_flood.html
+substitutions:
+  device_name: novoflood
+  device_description: 20W RGBWW flood light
+  friendly_name: Novostella Flood Light
 
 esphome:
   name: ${device_name}
@@ -91,6 +93,7 @@ light:
   cold_white_color_temperature: 6500 K
   warm_white_color_temperature: 2700 K
   id: thelight
+  color_interlock: true
   restore_mode: ALWAYS_ON #Start with light on after reboot/power-loss event, so that it works from a dumb lightswitch
   effects:
     - random:

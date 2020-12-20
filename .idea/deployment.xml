@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="udoox86" autoUploadExternalChanges="true" showNewOnTargetInSync="false">
+  <component name="PublishConfigData" serverName="udoox86" showNewOnTargetInSync="false">
     <serverData>
       <paths name="udoox86">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/config" local="$PROJECT_DIR$/config" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="udoox86 (project level)">
         <serverdata>
           <mappings>
             <mapping deploy="/home/setola/home-assistant" local="$PROJECT_DIR$" web="/" />
@@ -10,6 +17,5 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

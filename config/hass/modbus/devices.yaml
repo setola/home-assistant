@@ -1,0 +1,9 @@
+- name: 32DO-1
+  type: tcp
+  host: 192.168.82.76
+  port: 502
+
+- name: 32DI-1
+  type: tcp
+  host: 192.168.82.77
+  port: 502

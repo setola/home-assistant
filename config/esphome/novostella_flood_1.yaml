@@ -1,6 +1,6 @@
 substitutions:
   device_name: novoflood1
-  device_description: 20W RGBWW flood light, West half of front yard facing the living room.
+  device_description: 20W RGBWW flood light, Right side of Tex workstation.
   friendly_name: Novostella Flood Light 1
 
 <<: !include novostella_flood_common.yaml

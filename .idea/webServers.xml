@@ -2,12 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ca3eab36-b98d-4524-8c4b-b25eaecaec54" name="udoox86" url="http://udoox86">
-        <fileTransfer host="udoox86" port="22" privateKey="C:\Users\setol\.ssh\setola@ilgemini.ppk" accessType="SFTP" keyPair="true">
+      <webServer id="ca3eab36-b98d-4524-8c4b-b25eaecaec54" name="udoox86 (project level)" url="http://udoox86">
+        <fileTransfer accessType="SFTP" host="udoox86" port="22" sshConfigId="5b714eee-3cf1-4d34-b104-3585d9fb2aa4" sshConfig="udoox86" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>

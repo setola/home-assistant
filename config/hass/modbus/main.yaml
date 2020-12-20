@@ -1,0 +1,3 @@
+mb1: !include devices.yaml
+mb2: !include 32DI-1/inputs.yaml
+mb3: !include 32DO-1/coils.yaml

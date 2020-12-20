@@ -1,5 +1,8 @@
 *.log
-/config/esphome/.esphome
-/config/hass/.storage
-/config/hass/.HA_VERSION
+/config/esphome/*
+!/config/esphome/**/*.yaml
+/config/esphome/secrets.yaml
+/config/hass/*
+!/config/hass/**/*.yaml
 /config/hass/secrets.yaml
+/config/hass/known_devices.yaml
