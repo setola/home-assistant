@@ -1,1 +1,29 @@
-[]
+- id: '1629057364772'
+  alias: Chiudi abbaini
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: weather.villa_tessore
+    attribute: temperature
+    from: '26'
+  - platform: state
+    entity_id: weather.villa_tessore
+    attribute: temperature
+    to: '20'
+  condition: []
+  action:
+  - service: script.close_all_roof_window
+  mode: single
+- id: '1629058813562'
+  alias: Apri abbaini
+  description: Apri gli abbaini se la temperature entro i limiti
+  trigger:
+  - platform: state
+    entity_id: weather.villa_tessore
+    attribute: temperature
+    to: '26'
+    from: '20'
+  condition: []
+  action:
+  - service: script.open_all_roof_window
+  mode: single

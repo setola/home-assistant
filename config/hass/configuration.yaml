@@ -1,3 +1,4 @@
+
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
@@ -9,9 +10,5 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
-opnsense: !include opnsense.yaml
 modbus: !include modbus/devices.yaml
-binary_sensor modbus 32DI-1: !include modbus/32DI-1/inputs.yaml
-switch coils 32DO-1: !include modbus/32DO-1/coils.yaml
-switch registers 32DO-1: !include modbus/32DO-1/registers.yaml
-
+modbus roof covers: !include modbus/covers.yaml

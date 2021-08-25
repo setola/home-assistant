@@ -1,0 +1,169 @@
+stop_roof_window:
+  alias: Stop Roof Window
+  sequence:
+  - service: modbus.write_coil
+    data:
+      address: "{{ address }}"
+      state: 0
+      hub: "{{ hub }}"
+      unit: 1
+  - service: modbus.write_coil
+    data:
+      address: "{{ address | int +1 }}"
+      state: 0
+      hub: "{{ hub }}"
+      unit: 1
+  mode: single
+
+open_roof_window:
+  alias: Open Roof Window
+  sequence:
+  - service: modbus.write_coil
+    data:
+      address: "{{ address }}"
+      state: 1
+      unit: 1
+      hub: "{{ hub }}"
+  - service: modbus.write_coil
+    data:
+      address: "{{ address | int +1 }}"
+      state: 0
+      hub: "{{ hub }}"
+      unit: 1
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: "{{ delay }}"
+      milliseconds: 0
+  - service: script.stop_roof_window
+    data:
+      hub: "{{ hub }}"
+      address: "{{ address }}"
+  mode: single
+
+close_roof_window:
+  alias: Close Roof Window
+  sequence:
+  - service: modbus.write_coil
+    data:
+      address: "{{ address }}"
+      state: 0
+      unit: 1
+      hub: "{{ hub }}"
+  - service: modbus.write_coil
+    data:
+      address: "{{ address | int +1 }}"
+      state: 1
+      hub: "{{ hub }}"
+      unit: 1
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: "{{ delay }}"
+      milliseconds: 0
+  - service: script.stop_roof_window
+    data:
+      hub: "{{ hub }}"
+      address: "{{ address }}"
+  mode: single
+
+emergency_stop_roof_windows:
+  alias: Emergency Stop Roof Window
+  mode: single
+  sequence:
+    - service: modbus.write_coil
+      data:
+        address: 0
+        state: 0
+        hub: 32DO-1
+        unit: 1
+    - service: modbus.write_coil
+      data:
+        address: 1
+        state: 0
+        hub: 32DO-1
+        unit: 1
+    - service: modbus.write_coil
+      data:
+        address: 2
+        state: 0
+        hub: 32DO-1
+        unit: 1
+    - service: modbus.write_coil
+      data:
+        address: 3
+        state: 0
+        hub: 32DO-1
+        unit: 1
+    - service: modbus.write_coil
+      data:
+        address: 4
+        state: 0
+        hub: 32DO-1
+        unit: 1
+    - service: modbus.write_coil
+      data:
+        address: 5
+        state: 0
+        hub: 32DO-1
+        unit: 1
+
+open_all_roof_window:
+  alias: Open All Roof Window
+  mode: single
+  sequence:
+    - service: script.open_roof_window
+      data:
+        hub: 32DO-1
+        address: 0
+        delay: 15
+    - delay:
+        hours: 0
+        minutes: 0
+        seconds: 1
+        milliseconds: 0
+    - service: script.open_roof_window
+      data:
+        hub: 32DO-1
+        address: 2
+        delay: 15
+    - delay:
+        hours: 0
+        minutes: 0
+        seconds: 1
+        milliseconds: 0
+    - service: script.open_roof_window
+      data:
+        hub: 32DO-1
+        address: 4
+        delay: 15
+
+close_all_roof_window:
+  alias: Close All Roof Window
+  mode: single
+  sequence:
+    - service: script.close_roof_window
+      data:
+        hub: 32DO-1
+        address: 0
+        delay: 15
+    - delay:
+        hours: 0
+        minutes: 0
+        seconds: 1
+        milliseconds: 0
+    - service: script.close_roof_window
+      data:
+        hub: 32DO-1
+        address: 2
+        delay: 15
+    - delay:
+        hours: 0
+        minutes: 0
+        seconds: 1
+        milliseconds: 0
+    - service: script.close_roof_window
+      data:
+        hub: 32DO-1
+        address: 4
+        delay: 15

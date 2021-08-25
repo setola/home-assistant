@@ -1,0 +1,83 @@
+platform: template
+covers:
+  abbaino_1:
+    device_class: window
+    friendly_name: "Abbaino EST"
+    close_cover:
+      - service: script.close_roof_window
+        data:
+          hub: 32DO-1
+          address: 0
+          delay: 15
+    open_cover:
+      - service: script.open_roof_window
+        data:
+          hub: 32DO-1
+          address: 0
+          delay: 15
+    stop_cover:
+      - service: script.stop_roof_window
+        data:
+          hub: 32DO-1
+          address: 0
+  abbaino_2:
+    device_class: window
+    friendly_name: "Abbaino OVEST"
+    close_cover:
+      - service: script.close_roof_window
+        data:
+          hub: 32DO-1
+          address: 2
+          delay: 15
+    open_cover:
+      - service: script.open_roof_window
+        data:
+          hub: 32DO-1
+          address: 2
+          delay: 15
+    stop_cover:
+      - service: script.stop_roof_window
+        data:
+          hub: 32DO-1
+          address: 2
+  abbaino_3:
+    device_class: window
+    friendly_name: "Abbaino NORD"
+    close_cover:
+      - service: script.close_roof_window
+        data:
+          hub: 32DO-1
+          address: 4
+          delay: 15
+    open_cover:
+      - service: script.open_roof_window
+        data:
+          hub: 32DO-1
+          address: 4
+          delay: 15
+    stop_cover:
+      - service: script.stop_roof_window
+        data:
+          hub: 32DO-1
+          address: 4
+  abbaino_test:
+    device_class: window
+    friendly_name: "Abbaino Test"
+    close_cover:
+      - service: script.close_roof_window
+        data:
+          hub: 32DO-1
+          address: 6
+          delay: 15
+    open_cover:
+      - service: script.open_roof_window
+        data:
+          hub: 32DO-1
+          address: 6
+          delay: 15
+    stop_cover:
+      - service: script.stop_roof_window
+        data:
+          hub: 32DO-1
+          address: 6
+
