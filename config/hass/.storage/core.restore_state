@@ -1,0 +1,3275 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.emanuele",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "emanuele",
+                    "user_id": "99da9eaf491b48e2821b78583b4db5e2",
+                    "friendly_name": "Emanuele"
+                },
+                "last_changed": "2021-08-26T08:19:24.089486+00:00",
+                "last_updated": "2021-08-26T08:19:26.541398+00:00",
+                "context": {
+                    "id": "869f37ffd23aedb70e1733b4b68d2977",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.chiudi_abbaini",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1629057364772",
+                    "friendly_name": "Chiudi abbaini"
+                },
+                "last_changed": "2021-08-26T08:19:24.783959+00:00",
+                "last_updated": "2021-08-26T08:19:24.783959+00:00",
+                "context": {
+                    "id": "d175d06862ca75f000b30015f5dfdd80",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.apri_abbaini",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1629058813562",
+                    "friendly_name": "Apri abbaini"
+                },
+                "last_changed": "2021-08-26T08:19:24.784057+00:00",
+                "last_updated": "2021-08-26T08:19:24.784057+00:00",
+                "context": {
+                    "id": "0903807c6926d8e84c1a716cb4ec83e6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_000",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-000"
+                },
+                "last_changed": "2021-08-26T08:54:52.511911+00:00",
+                "last_updated": "2021-08-26T08:54:52.511911+00:00",
+                "context": {
+                    "id": "720da5367301d68c726911495977ea01",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_001",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-001"
+                },
+                "last_changed": "2021-08-26T08:34:41.805074+00:00",
+                "last_updated": "2021-08-26T08:34:41.805074+00:00",
+                "context": {
+                    "id": "95a52fee20548ab6e6fb4a1fa036ca4a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_002",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-002"
+                },
+                "last_changed": "2021-08-26T08:41:10.251318+00:00",
+                "last_updated": "2021-08-26T08:41:10.251318+00:00",
+                "context": {
+                    "id": "d6fe71fc2658d58cf46cdf850b3fa083",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_003",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-003"
+                },
+                "last_changed": "2021-08-26T08:33:03.703635+00:00",
+                "last_updated": "2021-08-26T08:33:03.703635+00:00",
+                "context": {
+                    "id": "842b80607684a8e994ad2860e4f7b9f7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_004",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-004"
+                },
+                "last_changed": "2021-08-26T08:41:26.293400+00:00",
+                "last_updated": "2021-08-26T08:41:26.293400+00:00",
+                "context": {
+                    "id": "3c56a13475fff968725477ca56868883",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_005",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-005"
+                },
+                "last_changed": "2021-08-26T08:33:19.735495+00:00",
+                "last_updated": "2021-08-26T08:33:19.735495+00:00",
+                "context": {
+                    "id": "d0629b0706755f2454e8ce4969d6e4fc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_006",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-006"
+                },
+                "last_changed": "2021-08-26T08:19:24.808810+00:00",
+                "last_updated": "2021-08-26T08:19:24.808810+00:00",
+                "context": {
+                    "id": "a8a3464ed1728b0506de763070ae6c6e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_007",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-007"
+                },
+                "last_changed": "2021-08-26T08:19:24.808884+00:00",
+                "last_updated": "2021-08-26T08:19:24.808884+00:00",
+                "context": {
+                    "id": "46db1bf928bb37f96c68125164dd321a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_008",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-008"
+                },
+                "last_changed": "2021-08-26T08:19:24.808950+00:00",
+                "last_updated": "2021-08-26T08:19:24.808950+00:00",
+                "context": {
+                    "id": "6a7806e0b145607b442072632a80a2a9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_009",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-009"
+                },
+                "last_changed": "2021-08-26T08:19:24.809014+00:00",
+                "last_updated": "2021-08-26T08:19:24.809014+00:00",
+                "context": {
+                    "id": "e494732c1a12ec170204f45c5023c3cf",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_010",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-010"
+                },
+                "last_changed": "2021-08-26T08:19:24.809080+00:00",
+                "last_updated": "2021-08-26T08:19:24.809080+00:00",
+                "context": {
+                    "id": "3572aa62f4d7fdbb22e901fdd1ad0e1d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_011",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-011"
+                },
+                "last_changed": "2021-08-26T08:19:24.809145+00:00",
+                "last_updated": "2021-08-26T08:19:24.809145+00:00",
+                "context": {
+                    "id": "ea519b624ca2a4744e93b5777fcf000b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_012",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-012"
+                },
+                "last_changed": "2021-08-26T08:19:24.809213+00:00",
+                "last_updated": "2021-08-26T08:19:24.809213+00:00",
+                "context": {
+                    "id": "63516b652facb3fa50eae0be0db9fe4f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_013",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-013"
+                },
+                "last_changed": "2021-08-26T08:19:24.809277+00:00",
+                "last_updated": "2021-08-26T08:19:24.809277+00:00",
+                "context": {
+                    "id": "a53b3afba4c3677474673ec3e626b95a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_014",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-014"
+                },
+                "last_changed": "2021-08-26T08:19:24.809340+00:00",
+                "last_updated": "2021-08-26T08:19:24.809340+00:00",
+                "context": {
+                    "id": "d29da364b9a68fe41460c27a45f03136",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_015",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-015"
+                },
+                "last_changed": "2021-08-26T08:19:24.809410+00:00",
+                "last_updated": "2021-08-26T08:19:24.809410+00:00",
+                "context": {
+                    "id": "f9e1fdff913e5ca3f4186c3ba7bdc5a0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_016",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-016"
+                },
+                "last_changed": "2021-08-26T08:19:24.809485+00:00",
+                "last_updated": "2021-08-26T08:19:24.809485+00:00",
+                "context": {
+                    "id": "9785995149c45333185e00747156afee",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_017",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-017"
+                },
+                "last_changed": "2021-08-26T08:19:24.809548+00:00",
+                "last_updated": "2021-08-26T08:19:24.809548+00:00",
+                "context": {
+                    "id": "bfbbbf31870c2e10c2966e12dfcd7f49",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_018",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-018"
+                },
+                "last_changed": "2021-08-26T08:19:24.809616+00:00",
+                "last_updated": "2021-08-26T08:19:24.809616+00:00",
+                "context": {
+                    "id": "6085f6749f54120250fdc0e27d299724",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_019",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-019"
+                },
+                "last_changed": "2021-08-26T08:19:24.809680+00:00",
+                "last_updated": "2021-08-26T08:19:24.809680+00:00",
+                "context": {
+                    "id": "72870578718bba77f9ccaf6ab822314c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_020",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-020"
+                },
+                "last_changed": "2021-08-26T09:02:47.221416+00:00",
+                "last_updated": "2021-08-26T09:02:47.221416+00:00",
+                "context": {
+                    "id": "72bcd71119fd5c7f88e558545626f504",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_021",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-021"
+                },
+                "last_changed": "2021-08-26T08:19:24.809812+00:00",
+                "last_updated": "2021-08-26T08:19:24.809812+00:00",
+                "context": {
+                    "id": "4584edadf11cf6629e44769d737e1244",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_022",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-022"
+                },
+                "last_changed": "2021-08-26T12:41:36.732693+00:00",
+                "last_updated": "2021-08-26T12:41:36.732693+00:00",
+                "context": {
+                    "id": "9bebb6833b45967e780c9383b961fb9b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_023",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-023"
+                },
+                "last_changed": "2021-08-26T08:19:24.809941+00:00",
+                "last_updated": "2021-08-26T08:19:24.809941+00:00",
+                "context": {
+                    "id": "d6c67464d4c6c49ddcf74ae58387893f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_024",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-024"
+                },
+                "last_changed": "2021-08-26T08:19:24.810007+00:00",
+                "last_updated": "2021-08-26T08:19:24.810007+00:00",
+                "context": {
+                    "id": "110ff78a94097d2ef7181e06446ac7cb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_025",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-025"
+                },
+                "last_changed": "2021-08-26T08:19:24.810072+00:00",
+                "last_updated": "2021-08-26T08:19:24.810072+00:00",
+                "context": {
+                    "id": "c0877676768c6b6cb8c92df8f9b42497",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_026",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-026"
+                },
+                "last_changed": "2021-08-26T08:19:24.810171+00:00",
+                "last_updated": "2021-08-26T08:19:24.810171+00:00",
+                "context": {
+                    "id": "441cfcbc464fb9e3a2c26dc01c9ed6a2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_027",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-027"
+                },
+                "last_changed": "2021-08-26T08:19:24.810239+00:00",
+                "last_updated": "2021-08-26T08:19:24.810239+00:00",
+                "context": {
+                    "id": "f805dd46aad534b8302d225f34274819",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_028",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-028"
+                },
+                "last_changed": "2021-08-26T10:30:57.082436+00:00",
+                "last_updated": "2021-08-26T10:30:57.082436+00:00",
+                "context": {
+                    "id": "f1ae452efeb2c5fdfa51fb796bc3a5a4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_029",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-029"
+                },
+                "last_changed": "2021-08-26T08:19:24.810369+00:00",
+                "last_updated": "2021-08-26T08:19:24.810369+00:00",
+                "context": {
+                    "id": "58e3c9a057baae62e2a6be61035eab16",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_030",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-030"
+                },
+                "last_changed": "2021-08-26T08:19:24.810436+00:00",
+                "last_updated": "2021-08-26T08:19:24.810436+00:00",
+                "context": {
+                    "id": "8fe830eb10baae1316ae30c46568efa6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_031",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-031"
+                },
+                "last_changed": "2021-08-26T08:19:24.810501+00:00",
+                "last_updated": "2021-08-26T08:19:24.810501+00:00",
+                "context": {
+                    "id": "5a55887fc38ffe06c009c99ca20047e6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_000",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-000"
+                },
+                "last_changed": "2021-08-26T08:40:54.909383+00:00",
+                "last_updated": "2021-08-26T08:40:54.909383+00:00",
+                "context": {
+                    "id": "a992fe3aedad9007d7ccabc32b50a293",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_001",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-001"
+                },
+                "last_changed": "2021-08-26T08:34:50.666072+00:00",
+                "last_updated": "2021-08-26T08:34:50.666072+00:00",
+                "context": {
+                    "id": "f145df09d7c32954dfb1dbe75b3ca613",
+                    "parent_id": null,
+                    "user_id": "99da9eaf491b48e2821b78583b4db5e2"
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_002",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-002"
+                },
+                "last_changed": "2021-08-26T08:41:09.931305+00:00",
+                "last_updated": "2021-08-26T08:41:09.931305+00:00",
+                "context": {
+                    "id": "a8351d622602e35e8331d1aa705c044b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_003",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-003"
+                },
+                "last_changed": "2021-08-26T08:33:10.024368+00:00",
+                "last_updated": "2021-08-26T08:33:10.024368+00:00",
+                "context": {
+                    "id": "064e82d36c2924164956271fe346ece2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_004",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-004"
+                },
+                "last_changed": "2021-08-26T08:41:39.954810+00:00",
+                "last_updated": "2021-08-26T08:41:39.954810+00:00",
+                "context": {
+                    "id": "27408895bbce7eb70c3dbc2dd81dcc13",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_005",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-005"
+                },
+                "last_changed": "2021-08-26T08:33:25.066144+00:00",
+                "last_updated": "2021-08-26T08:33:25.066144+00:00",
+                "context": {
+                    "id": "6cf082ccf9a5423934168a86be9200b2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_006",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-006"
+                },
+                "last_changed": "2021-08-26T08:19:24.811989+00:00",
+                "last_updated": "2021-08-26T08:19:24.811989+00:00",
+                "context": {
+                    "id": "d9a0941b5845d3d1d66762e19f759bf0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_007",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-007"
+                },
+                "last_changed": "2021-08-26T08:19:24.812053+00:00",
+                "last_updated": "2021-08-26T08:19:24.812053+00:00",
+                "context": {
+                    "id": "5ce509311e2d4b9770296f4a7b4991c8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_008",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-008"
+                },
+                "last_changed": "2021-08-26T08:19:24.812123+00:00",
+                "last_updated": "2021-08-26T08:19:24.812123+00:00",
+                "context": {
+                    "id": "b5f21402d033bab1de8903c502a670fd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_009",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-009"
+                },
+                "last_changed": "2021-08-26T08:19:24.812189+00:00",
+                "last_updated": "2021-08-26T08:19:24.812189+00:00",
+                "context": {
+                    "id": "588f2b8f8581e4024d663c9b26f6ff74",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_010",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-010"
+                },
+                "last_changed": "2021-08-26T08:19:24.812254+00:00",
+                "last_updated": "2021-08-26T08:19:24.812254+00:00",
+                "context": {
+                    "id": "981bcc0626ac15884a01c8adfd51ad64",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_011",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-011"
+                },
+                "last_changed": "2021-08-26T08:19:24.812321+00:00",
+                "last_updated": "2021-08-26T08:19:24.812321+00:00",
+                "context": {
+                    "id": "e2c982c2c6b8122c642d69e825ca4775",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_012",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-012"
+                },
+                "last_changed": "2021-08-26T08:19:24.812384+00:00",
+                "last_updated": "2021-08-26T08:19:24.812384+00:00",
+                "context": {
+                    "id": "252f7d31e1cada0e202d87d4064a3bbe",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_013",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-013"
+                },
+                "last_changed": "2021-08-26T08:19:24.812452+00:00",
+                "last_updated": "2021-08-26T08:19:24.812452+00:00",
+                "context": {
+                    "id": "33eacca3dd12162251a8b189adc1ed9d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_014",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-014"
+                },
+                "last_changed": "2021-08-26T08:19:24.812517+00:00",
+                "last_updated": "2021-08-26T08:19:24.812517+00:00",
+                "context": {
+                    "id": "f93d20240b8fb5a3de450fd44055725b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_015",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-015"
+                },
+                "last_changed": "2021-08-26T08:19:24.812581+00:00",
+                "last_updated": "2021-08-26T08:19:24.812581+00:00",
+                "context": {
+                    "id": "fed28091d08d1283c8d03a107d342009",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_016",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-016"
+                },
+                "last_changed": "2021-08-26T08:19:24.812645+00:00",
+                "last_updated": "2021-08-26T08:19:24.812645+00:00",
+                "context": {
+                    "id": "7f31c809f725e6adc1194dbf292f86c8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_017",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-017"
+                },
+                "last_changed": "2021-08-26T08:19:24.812707+00:00",
+                "last_updated": "2021-08-26T08:19:24.812707+00:00",
+                "context": {
+                    "id": "cd4905b08ad66729d66e4490b2569564",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_018",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-018"
+                },
+                "last_changed": "2021-08-26T08:19:24.812775+00:00",
+                "last_updated": "2021-08-26T08:19:24.812775+00:00",
+                "context": {
+                    "id": "2d78a2ce71c03ea4fc43da19a2b9a297",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_019",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-019"
+                },
+                "last_changed": "2021-08-26T08:19:24.812839+00:00",
+                "last_updated": "2021-08-26T08:19:24.812839+00:00",
+                "context": {
+                    "id": "3723c4a82422bb41c17f05b09b3c60eb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_020",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-020"
+                },
+                "last_changed": "2021-08-26T08:19:24.812902+00:00",
+                "last_updated": "2021-08-26T08:19:24.812902+00:00",
+                "context": {
+                    "id": "ca2d69ccaab869732ed4325e604bcd7f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_021",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-021"
+                },
+                "last_changed": "2021-08-26T08:19:24.812969+00:00",
+                "last_updated": "2021-08-26T08:19:24.812969+00:00",
+                "context": {
+                    "id": "9dec46200023b0b886b64edfec44b21f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_022",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-022"
+                },
+                "last_changed": "2021-08-26T08:19:24.813031+00:00",
+                "last_updated": "2021-08-26T08:19:24.813031+00:00",
+                "context": {
+                    "id": "7eb7be953a4e4c8686845b5b8818d878",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_023",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-023"
+                },
+                "last_changed": "2021-08-26T08:19:24.813098+00:00",
+                "last_updated": "2021-08-26T08:19:24.813098+00:00",
+                "context": {
+                    "id": "fb2ce27f554d153b0ad95476ef9305a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_024",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-024"
+                },
+                "last_changed": "2021-08-26T08:19:24.813162+00:00",
+                "last_updated": "2021-08-26T08:19:24.813162+00:00",
+                "context": {
+                    "id": "3012a730b0949fc73321a8556b6c9977",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_025",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-025"
+                },
+                "last_changed": "2021-08-26T08:19:24.813229+00:00",
+                "last_updated": "2021-08-26T08:19:24.813229+00:00",
+                "context": {
+                    "id": "5f97ada575a62811d5ca7f8fa24dc0a5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_026",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-026"
+                },
+                "last_changed": "2021-08-26T08:19:24.813295+00:00",
+                "last_updated": "2021-08-26T08:19:24.813295+00:00",
+                "context": {
+                    "id": "efe962e28026bebc42b0074021209330",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_027",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-027"
+                },
+                "last_changed": "2021-08-26T08:19:24.813467+00:00",
+                "last_updated": "2021-08-26T08:19:24.813467+00:00",
+                "context": {
+                    "id": "87a3c014b7f7413b380758871649a7ba",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_028",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-028"
+                },
+                "last_changed": "2021-08-26T08:19:24.813541+00:00",
+                "last_updated": "2021-08-26T08:19:24.813541+00:00",
+                "context": {
+                    "id": "fab3b6b118e00e8ed2aa8044e1db5742",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_029",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-029"
+                },
+                "last_changed": "2021-08-26T08:19:24.813611+00:00",
+                "last_updated": "2021-08-26T08:19:24.813611+00:00",
+                "context": {
+                    "id": "b66c3c4404400a62668d2c85ad715700",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_030",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-030"
+                },
+                "last_changed": "2021-08-26T08:19:24.813677+00:00",
+                "last_updated": "2021-08-26T08:19:24.813677+00:00",
+                "context": {
+                    "id": "9274572d0c823732dbd8928b608b8ec5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_031",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-031"
+                },
+                "last_changed": "2021-08-26T08:19:24.813745+00:00",
+                "last_updated": "2021-08-26T08:19:24.813745+00:00",
+                "context": {
+                    "id": "ffd22ceaa393c368c4dbe385bd073380",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.nokia_6_1_battery_level",
+                "state": "99",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Nokia 6.1 Battery Level",
+                    "icon": "mdi:battery-90",
+                    "device_class": "battery"
+                },
+                "last_changed": "2021-08-26T11:24:44.065729+00:00",
+                "last_updated": "2021-08-26T11:24:44.065729+00:00",
+                "context": {
+                    "id": "39ee5e62566cafe84f3c313c77c9add0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.nokia_6_1_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "friendly_name": "Nokia 6.1 Battery State",
+                    "icon": "mdi:battery-minus"
+                },
+                "last_changed": "2021-08-26T12:23:47.496012+00:00",
+                "last_updated": "2021-08-26T12:23:47.496012+00:00",
+                "context": {
+                    "id": "af1829c2fa9cb555944555b79430aef4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.nokia_6_1_charger_type",
+                "state": "none",
+                "attributes": {
+                    "friendly_name": "Nokia 6.1 Charger Type",
+                    "icon": "mdi:battery"
+                },
+                "last_changed": "2021-08-26T12:23:47.496171+00:00",
+                "last_updated": "2021-08-26T12:23:47.496171+00:00",
+                "context": {
+                    "id": "695d68193fd1288de76849b7f71a12ef",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.nokia_6_1_battery_temperature",
+                "state": "30.0",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Nokia 6.1 Battery Temperature",
+                    "icon": "mdi:battery",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2021-08-26T12:23:47.496238+00:00",
+                "last_updated": "2021-08-26T12:23:47.496238+00:00",
+                "context": {
+                    "id": "62be7b0c8d5569a3b6ba4cf259e32c2e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.nokia_6_1_is_charging",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Nokia 6.1 Is Charging",
+                    "icon": "mdi:power-plug-off",
+                    "device_class": "plug"
+                },
+                "last_changed": "2021-08-26T12:23:47.496112+00:00",
+                "last_updated": "2021-08-26T12:23:47.496112+00:00",
+                "context": {
+                    "id": "2f36ce05630d633cf99f43025eafb547",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.nokia_6_1",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "friendly_name": "Nokia 6.1"
+                },
+                "last_changed": "2021-08-26T08:19:24.863250+00:00",
+                "last_updated": "2021-08-26T08:19:24.863250+00:00",
+                "context": {
+                    "id": "0b5191420f7787b361bd15343da6f37c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-26T13:04:26.560513+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_0",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-0"
+                },
+                "last_changed": "2021-08-21T18:42:05.846063+00:00",
+                "last_updated": "2021-08-21T18:42:05.846063+00:00",
+                "context": {
+                    "id": "eaf240d1746f9b4f52fa6d1ade3047f1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_1",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-1"
+                },
+                "last_changed": "2021-08-21T18:40:05.830558+00:00",
+                "last_updated": "2021-08-21T18:40:05.830558+00:00",
+                "context": {
+                    "id": "1337d4fb348ea23a47fbcb2b2faf7097",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_2",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-2"
+                },
+                "last_changed": "2021-08-21T18:42:20.868830+00:00",
+                "last_updated": "2021-08-21T18:42:20.868830+00:00",
+                "context": {
+                    "id": "603fb866ca31f902ae646f699bc21227",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_3",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-3"
+                },
+                "last_changed": "2021-08-21T18:40:05.830703+00:00",
+                "last_updated": "2021-08-21T18:40:05.830703+00:00",
+                "context": {
+                    "id": "24e7d08c5009534961bf08b868c22bf0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_4",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-4"
+                },
+                "last_changed": "2021-08-21T18:42:35.890335+00:00",
+                "last_updated": "2021-08-21T18:42:35.890335+00:00",
+                "context": {
+                    "id": "6d3950290ad52d0c072d621f9d0a1c63",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_5",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-5"
+                },
+                "last_changed": "2021-08-21T18:40:05.830834+00:00",
+                "last_updated": "2021-08-21T18:40:05.830834+00:00",
+                "context": {
+                    "id": "a2aa973126c1be3348dd6e0fb370470e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_6",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-6"
+                },
+                "last_changed": "2021-08-21T18:40:05.830903+00:00",
+                "last_updated": "2021-08-21T18:40:05.830903+00:00",
+                "context": {
+                    "id": "b51bbd34efeeb4de34b9c2a4cd5effbc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_7",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-7"
+                },
+                "last_changed": "2021-08-21T19:01:36.006383+00:00",
+                "last_updated": "2021-08-21T19:01:36.006383+00:00",
+                "context": {
+                    "id": "13b321467202a1be9c70ab0a988b3d97",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_8",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-8"
+                },
+                "last_changed": "2021-08-21T18:40:05.831032+00:00",
+                "last_updated": "2021-08-21T18:40:05.831032+00:00",
+                "context": {
+                    "id": "af574249c8257f7e919a74b2620edee3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_9",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-9"
+                },
+                "last_changed": "2021-08-21T18:40:05.831097+00:00",
+                "last_updated": "2021-08-21T18:40:05.831097+00:00",
+                "context": {
+                    "id": "6ff2da75aa5d0a4089ff898751894c59",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_10",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-10"
+                },
+                "last_changed": "2021-08-21T18:40:05.831163+00:00",
+                "last_updated": "2021-08-21T18:40:05.831163+00:00",
+                "context": {
+                    "id": "206f5dbc774c00400422189a3ced5fe3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_11",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-11"
+                },
+                "last_changed": "2021-08-21T18:40:05.831227+00:00",
+                "last_updated": "2021-08-21T18:40:05.831227+00:00",
+                "context": {
+                    "id": "edcceeb8d4a50a36288add6a8facc89b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_12",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-12"
+                },
+                "last_changed": "2021-08-21T18:40:05.831290+00:00",
+                "last_updated": "2021-08-21T18:40:05.831290+00:00",
+                "context": {
+                    "id": "2971a8d8aed01448a2aa9688ace4a22d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_13",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-13"
+                },
+                "last_changed": "2021-08-21T18:40:05.831356+00:00",
+                "last_updated": "2021-08-21T18:40:05.831356+00:00",
+                "context": {
+                    "id": "6dc29db0fd8eabd89d8b95d7ed8fb7d1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_14",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-14"
+                },
+                "last_changed": "2021-08-21T18:40:05.831421+00:00",
+                "last_updated": "2021-08-21T18:40:05.831421+00:00",
+                "context": {
+                    "id": "505c08b42198225d882b977272853faa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_15",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-15"
+                },
+                "last_changed": "2021-08-21T18:40:05.831486+00:00",
+                "last_updated": "2021-08-21T18:40:05.831486+00:00",
+                "context": {
+                    "id": "4d28ea0400d0f350aa89cba570b43c8a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_16",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-16"
+                },
+                "last_changed": "2021-08-21T18:40:05.831552+00:00",
+                "last_updated": "2021-08-21T18:40:05.831552+00:00",
+                "context": {
+                    "id": "bd6ecebc285bd780ff1435267581bfc6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_17",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-17"
+                },
+                "last_changed": "2021-08-21T18:40:05.831616+00:00",
+                "last_updated": "2021-08-21T18:40:05.831616+00:00",
+                "context": {
+                    "id": "8c0a76460e634a4f6da8345484f0c3b4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_18",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-18"
+                },
+                "last_changed": "2021-08-21T18:40:05.831679+00:00",
+                "last_updated": "2021-08-21T18:40:05.831679+00:00",
+                "context": {
+                    "id": "e3ae4282ab0de03457749a65f12939c6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_19",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-19"
+                },
+                "last_changed": "2021-08-21T18:40:05.831793+00:00",
+                "last_updated": "2021-08-21T18:40:05.831793+00:00",
+                "context": {
+                    "id": "40057935a94eba40e2901fe7a5d540a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_20",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-20"
+                },
+                "last_changed": "2021-08-21T18:40:05.831858+00:00",
+                "last_updated": "2021-08-21T18:40:05.831858+00:00",
+                "context": {
+                    "id": "306ba797a12eeece461657437d9e7503",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_21",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-21"
+                },
+                "last_changed": "2021-08-21T18:40:05.831924+00:00",
+                "last_updated": "2021-08-21T18:40:05.831924+00:00",
+                "context": {
+                    "id": "54d8c324374f958db50efb1f653d73d7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_22",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-22"
+                },
+                "last_changed": "2021-08-21T18:40:05.832009+00:00",
+                "last_updated": "2021-08-21T18:40:05.832009+00:00",
+                "context": {
+                    "id": "207b7e4f383b753e06f7c1431e79e775",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_23",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-23"
+                },
+                "last_changed": "2021-08-21T18:40:05.832088+00:00",
+                "last_updated": "2021-08-21T18:40:05.832088+00:00",
+                "context": {
+                    "id": "05b112450f9486abf1ba2af913f3d4df",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_24",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-24"
+                },
+                "last_changed": "2021-08-21T18:40:05.832161+00:00",
+                "last_updated": "2021-08-21T18:40:05.832161+00:00",
+                "context": {
+                    "id": "454bbeaf344dd421026f8244a53e7cf4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_25",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-25"
+                },
+                "last_changed": "2021-08-21T18:40:05.832224+00:00",
+                "last_updated": "2021-08-21T18:40:05.832224+00:00",
+                "context": {
+                    "id": "6e0433b6bda2aece8505e895773bc98e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_26",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-26"
+                },
+                "last_changed": "2021-08-21T18:40:05.832286+00:00",
+                "last_updated": "2021-08-21T18:40:05.832286+00:00",
+                "context": {
+                    "id": "11ddbeaf12764b9935f535d88f469a79",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_27",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-27"
+                },
+                "last_changed": "2021-08-21T18:40:05.832350+00:00",
+                "last_updated": "2021-08-21T18:40:05.832350+00:00",
+                "context": {
+                    "id": "8c376e45c5ca3d8402323614ef8b0959",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_28",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-28"
+                },
+                "last_changed": "2021-08-21T18:40:05.832413+00:00",
+                "last_updated": "2021-08-21T18:40:05.832413+00:00",
+                "context": {
+                    "id": "fc7f6fc10cdf9ebca6bc234cd62c6e3c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_29",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-29"
+                },
+                "last_changed": "2021-08-21T18:40:05.832479+00:00",
+                "last_updated": "2021-08-21T18:40:05.832479+00:00",
+                "context": {
+                    "id": "31963017b1b5b7952d16b4e86458e301",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_30",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-30"
+                },
+                "last_changed": "2021-08-21T18:40:05.832543+00:00",
+                "last_updated": "2021-08-21T18:40:05.832543+00:00",
+                "context": {
+                    "id": "fa491fdc1de412926b8db7be48340ca7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_31",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-31"
+                },
+                "last_changed": "2021-08-21T18:40:05.832610+00:00",
+                "last_updated": "2021-08-21T18:40:05.832610+00:00",
+                "context": {
+                    "id": "7e1b48b02548df55c26857fa687c151c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T19:10:32.737034+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_00",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-00"
+                },
+                "last_changed": "2021-08-21T17:54:50.720858+00:00",
+                "last_updated": "2021-08-21T17:54:50.720858+00:00",
+                "context": {
+                    "id": "8d730405ae244f9bbf9b32decae24496",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_01",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-01"
+                },
+                "last_changed": "2021-08-21T17:54:50.720936+00:00",
+                "last_updated": "2021-08-21T17:54:50.720936+00:00",
+                "context": {
+                    "id": "8864af2fb96667cc78b921a0a8254d59",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_02",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-02"
+                },
+                "last_changed": "2021-08-21T17:54:50.721011+00:00",
+                "last_updated": "2021-08-21T17:54:50.721011+00:00",
+                "context": {
+                    "id": "d206efff05678ebbe293500276a4e723",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_00",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-00"
+                },
+                "last_changed": "2021-08-21T17:54:50.723039+00:00",
+                "last_updated": "2021-08-21T17:54:50.723039+00:00",
+                "context": {
+                    "id": "89ad144f69f86b66a3b6fd7e98f1dd74",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_01",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-01"
+                },
+                "last_changed": "2021-08-21T17:54:50.723102+00:00",
+                "last_updated": "2021-08-21T17:54:50.723102+00:00",
+                "context": {
+                    "id": "233bfd70f2acb99c893a7720ce78d74a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_02",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-02"
+                },
+                "last_changed": "2021-08-21T17:54:50.723163+00:00",
+                "last_updated": "2021-08-21T17:54:50.723163+00:00",
+                "context": {
+                    "id": "adf5f17325df81054b0bbc5458ad8c9f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_03",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-03"
+                },
+                "last_changed": "2021-08-21T17:54:50.723224+00:00",
+                "last_updated": "2021-08-21T17:54:50.723224+00:00",
+                "context": {
+                    "id": "ec58f4570cffa92dc13e46d997ee3c5e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_04",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-04"
+                },
+                "last_changed": "2021-08-21T17:54:50.723286+00:00",
+                "last_updated": "2021-08-21T17:54:50.723286+00:00",
+                "context": {
+                    "id": "53889c56cda91501c99086b1740c9be5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_05",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-05"
+                },
+                "last_changed": "2021-08-21T17:54:50.723348+00:00",
+                "last_updated": "2021-08-21T17:54:50.723348+00:00",
+                "context": {
+                    "id": "de5f7288556f1e62dc054f93fb6cdabc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_06",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-06"
+                },
+                "last_changed": "2021-08-21T17:54:50.723409+00:00",
+                "last_updated": "2021-08-21T17:54:50.723409+00:00",
+                "context": {
+                    "id": "30db18d59eea9fe94daa35d6f57023e5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_07",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-07"
+                },
+                "last_changed": "2021-08-21T17:54:50.723473+00:00",
+                "last_updated": "2021-08-21T17:54:50.723473+00:00",
+                "context": {
+                    "id": "7f06a25c6d60c7143cc3fae86e33860a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_08",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-08"
+                },
+                "last_changed": "2021-08-21T17:54:50.723534+00:00",
+                "last_updated": "2021-08-21T17:54:50.723534+00:00",
+                "context": {
+                    "id": "f584cbe070be3f0e68d1aff0d4dda0a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.switch_32do_1_09",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-09"
+                },
+                "last_changed": "2021-08-21T17:54:50.723595+00:00",
+                "last_updated": "2021-08-21T17:54:50.723595+00:00",
+                "context": {
+                    "id": "d2a088097e88a4ef764d7d2054122851",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:55:54.213573+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_0",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-0"
+                },
+                "last_changed": "2021-08-21T17:45:51.586239+00:00",
+                "last_updated": "2021-08-21T17:45:51.586239+00:00",
+                "context": {
+                    "id": "e5dc1d6bec5c1b19bb957c889c31327b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_1",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-1"
+                },
+                "last_changed": "2021-08-21T17:45:51.586316+00:00",
+                "last_updated": "2021-08-21T17:45:51.586316+00:00",
+                "context": {
+                    "id": "63a1bd2a0b363095a514faed453b707c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_2",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-2"
+                },
+                "last_changed": "2021-08-21T17:45:51.586384+00:00",
+                "last_updated": "2021-08-21T17:45:51.586384+00:00",
+                "context": {
+                    "id": "9a10662048dd6754c31921f8a240f690",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_3",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-3"
+                },
+                "last_changed": "2021-08-21T17:45:51.586447+00:00",
+                "last_updated": "2021-08-21T17:45:51.586447+00:00",
+                "context": {
+                    "id": "6b1b4948f950c58821a5b89ec6b8741a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_4",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-4"
+                },
+                "last_changed": "2021-08-21T17:45:51.586510+00:00",
+                "last_updated": "2021-08-21T17:45:51.586510+00:00",
+                "context": {
+                    "id": "b20564467de4fee8eadaf12db2ab6576",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_5",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-5"
+                },
+                "last_changed": "2021-08-21T17:45:51.586804+00:00",
+                "last_updated": "2021-08-21T17:45:51.586804+00:00",
+                "context": {
+                    "id": "022500625f2379f72728f9702d909d68",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_6",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-6"
+                },
+                "last_changed": "2021-08-21T17:45:51.586879+00:00",
+                "last_updated": "2021-08-21T17:45:51.586879+00:00",
+                "context": {
+                    "id": "0644b03c2a0a3f134c6eee80e5a85773",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_7",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-7"
+                },
+                "last_changed": "2021-08-21T17:45:51.586944+00:00",
+                "last_updated": "2021-08-21T17:45:51.586944+00:00",
+                "context": {
+                    "id": "e6d75c83fc2c21f7ff1e68386a096a77",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_8",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-8"
+                },
+                "last_changed": "2021-08-21T17:45:51.587007+00:00",
+                "last_updated": "2021-08-21T17:45:51.587007+00:00",
+                "context": {
+                    "id": "373d56ce0dc3059c9d46a6927364a0d8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_9",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-9"
+                },
+                "last_changed": "2021-08-21T17:45:51.587069+00:00",
+                "last_updated": "2021-08-21T17:45:51.587069+00:00",
+                "context": {
+                    "id": "9282afa27a90b59b9347a10f58819490",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_10",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-10"
+                },
+                "last_changed": "2021-08-21T17:45:51.587127+00:00",
+                "last_updated": "2021-08-21T17:45:51.587127+00:00",
+                "context": {
+                    "id": "2d2f71e93d5f68d0773ae5451be991e8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_11",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-11"
+                },
+                "last_changed": "2021-08-21T17:45:51.587189+00:00",
+                "last_updated": "2021-08-21T17:45:51.587189+00:00",
+                "context": {
+                    "id": "0ff4c0db728bec914f90f2e5660c8d92",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_12",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-12"
+                },
+                "last_changed": "2021-08-21T17:45:51.587248+00:00",
+                "last_updated": "2021-08-21T17:45:51.587248+00:00",
+                "context": {
+                    "id": "fec88d195773a06a54682bf35a3b3197",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_13",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-13"
+                },
+                "last_changed": "2021-08-21T17:45:51.587313+00:00",
+                "last_updated": "2021-08-21T17:45:51.587313+00:00",
+                "context": {
+                    "id": "7cc88c4ea0f530cd784152f39a18d84a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_14",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-14"
+                },
+                "last_changed": "2021-08-21T17:45:51.587374+00:00",
+                "last_updated": "2021-08-21T17:45:51.587374+00:00",
+                "context": {
+                    "id": "a9b4f9cd3ef7c894addaf908e58d6252",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_15",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-15"
+                },
+                "last_changed": "2021-08-21T17:45:51.587432+00:00",
+                "last_updated": "2021-08-21T17:45:51.587432+00:00",
+                "context": {
+                    "id": "cc20bab0aaa97500c468853d135c1a5c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_16",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-16"
+                },
+                "last_changed": "2021-08-21T17:45:51.587492+00:00",
+                "last_updated": "2021-08-21T17:45:51.587492+00:00",
+                "context": {
+                    "id": "93ac7dc1a64c4a208d63536f0e4bca06",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_17",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-17"
+                },
+                "last_changed": "2021-08-21T17:45:51.587551+00:00",
+                "last_updated": "2021-08-21T17:45:51.587551+00:00",
+                "context": {
+                    "id": "177043ba7a1941b98f68de42ebf59906",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_18",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-18"
+                },
+                "last_changed": "2021-08-21T17:45:51.587612+00:00",
+                "last_updated": "2021-08-21T17:45:51.587612+00:00",
+                "context": {
+                    "id": "398c764ee624d9773bd06b56508074cc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_19",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-19"
+                },
+                "last_changed": "2021-08-21T17:45:51.587670+00:00",
+                "last_updated": "2021-08-21T17:45:51.587670+00:00",
+                "context": {
+                    "id": "44ebb2d4909a096ea0b065b9db2a5efa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_20",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-20"
+                },
+                "last_changed": "2021-08-21T17:45:51.587729+00:00",
+                "last_updated": "2021-08-21T17:45:51.587729+00:00",
+                "context": {
+                    "id": "05c73c51c86d662d6122bc68aba4a9bc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_21",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-21"
+                },
+                "last_changed": "2021-08-21T17:45:51.587788+00:00",
+                "last_updated": "2021-08-21T17:45:51.587788+00:00",
+                "context": {
+                    "id": "b57af6ed197fcebc913b965fddd7eeee",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_22",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-22"
+                },
+                "last_changed": "2021-08-21T17:45:51.587846+00:00",
+                "last_updated": "2021-08-21T17:45:51.587846+00:00",
+                "context": {
+                    "id": "11c6d3653351fb70e6c35befdc5db0a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_23",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-23"
+                },
+                "last_changed": "2021-08-21T17:45:51.587906+00:00",
+                "last_updated": "2021-08-21T17:45:51.587906+00:00",
+                "context": {
+                    "id": "cfab7e4c27d0773c09ad447e0d8b1c9c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_24",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-24"
+                },
+                "last_changed": "2021-08-21T17:45:51.587964+00:00",
+                "last_updated": "2021-08-21T17:45:51.587964+00:00",
+                "context": {
+                    "id": "a6cff54472cc51a2438afe4f25e596b7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_25",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-25"
+                },
+                "last_changed": "2021-08-21T17:45:51.588022+00:00",
+                "last_updated": "2021-08-21T17:45:51.588022+00:00",
+                "context": {
+                    "id": "232a9e20d97c255f37b10d7705ea7535",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_26",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-26"
+                },
+                "last_changed": "2021-08-21T17:45:51.588085+00:00",
+                "last_updated": "2021-08-21T17:45:51.588085+00:00",
+                "context": {
+                    "id": "8ca58aad64b2459e1f92f7871d89c691",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_27",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-27"
+                },
+                "last_changed": "2021-08-21T17:45:51.588146+00:00",
+                "last_updated": "2021-08-21T17:45:51.588146+00:00",
+                "context": {
+                    "id": "36169a40e1d63745743c3c10eba9e704",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_28",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-28"
+                },
+                "last_changed": "2021-08-21T17:45:51.588204+00:00",
+                "last_updated": "2021-08-21T17:45:51.588204+00:00",
+                "context": {
+                    "id": "b66ad52baff87cbab01a111ad85a2599",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_29",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-29"
+                },
+                "last_changed": "2021-08-21T17:45:51.588263+00:00",
+                "last_updated": "2021-08-21T17:45:51.588263+00:00",
+                "context": {
+                    "id": "994a53cb35825e63db3555e2caaf9942",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_30",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-30"
+                },
+                "last_changed": "2021-08-21T17:45:51.588325+00:00",
+                "last_updated": "2021-08-21T17:45:51.588325+00:00",
+                "context": {
+                    "id": "1d2f33a543620e4753d01f01d120b444",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.sensor_32do_1_31",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Sensor-32DO-1-31"
+                },
+                "last_changed": "2021-08-21T17:45:51.588386+00:00",
+                "last_updated": "2021-08-21T17:45:51.588386+00:00",
+                "context": {
+                    "id": "ce4151e35ba7363746c890eaa607329d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:54:46.551379+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_0",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-0"
+                },
+                "last_changed": "2021-08-21T17:42:35.364036+00:00",
+                "last_updated": "2021-08-21T17:42:35.364036+00:00",
+                "context": {
+                    "id": "5c8be3eff8077927bb9075e1e5e26fe5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_1",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-1"
+                },
+                "last_changed": "2021-08-21T17:42:35.364116+00:00",
+                "last_updated": "2021-08-21T17:42:35.364116+00:00",
+                "context": {
+                    "id": "922c8ddf7535f7a6c895b20487daed76",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_2",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-2"
+                },
+                "last_changed": "2021-08-21T17:42:35.364188+00:00",
+                "last_updated": "2021-08-21T17:42:35.364188+00:00",
+                "context": {
+                    "id": "0de7d48a00b13528d93785c947914dfa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_3",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-3"
+                },
+                "last_changed": "2021-08-21T17:42:35.364259+00:00",
+                "last_updated": "2021-08-21T17:42:35.364259+00:00",
+                "context": {
+                    "id": "3379184aeaf9b76939e9c935b21d9349",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_4",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-4"
+                },
+                "last_changed": "2021-08-21T17:42:35.364324+00:00",
+                "last_updated": "2021-08-21T17:42:35.364324+00:00",
+                "context": {
+                    "id": "8fd8eaa47867d16fe9bee33d5a21fe69",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_5",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-5"
+                },
+                "last_changed": "2021-08-21T17:42:35.364392+00:00",
+                "last_updated": "2021-08-21T17:42:35.364392+00:00",
+                "context": {
+                    "id": "07b52e0b99002323c467731a8e2de8f3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_6",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-6"
+                },
+                "last_changed": "2021-08-21T17:42:35.364456+00:00",
+                "last_updated": "2021-08-21T17:42:35.364456+00:00",
+                "context": {
+                    "id": "512672c33a84936713eb69b7f0bd7c58",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_7",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-7"
+                },
+                "last_changed": "2021-08-21T17:42:35.364518+00:00",
+                "last_updated": "2021-08-21T17:42:35.364518+00:00",
+                "context": {
+                    "id": "2cd6aa42b10f5971e3554d8dbe4bebf7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_8",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-8"
+                },
+                "last_changed": "2021-08-21T17:42:35.364580+00:00",
+                "last_updated": "2021-08-21T17:42:35.364580+00:00",
+                "context": {
+                    "id": "53675fe8b7c2a7a492576fc038ae2734",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_9",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-9"
+                },
+                "last_changed": "2021-08-21T17:42:35.364641+00:00",
+                "last_updated": "2021-08-21T17:42:35.364641+00:00",
+                "context": {
+                    "id": "2093cb5bbe67dfee9d91aaedaf41785a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_10",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-10"
+                },
+                "last_changed": "2021-08-21T17:42:35.364702+00:00",
+                "last_updated": "2021-08-21T17:42:35.364702+00:00",
+                "context": {
+                    "id": "d383fc474d98d23513def1ca597fa7ab",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_11",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-11"
+                },
+                "last_changed": "2021-08-21T17:42:35.364767+00:00",
+                "last_updated": "2021-08-21T17:42:35.364767+00:00",
+                "context": {
+                    "id": "51fcb5a88206428bb02643c2a46b4065",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_12",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-12"
+                },
+                "last_changed": "2021-08-21T17:42:35.364829+00:00",
+                "last_updated": "2021-08-21T17:42:35.364829+00:00",
+                "context": {
+                    "id": "f11abdd8f1d512b71743e24f0ef97d6e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_13",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-13"
+                },
+                "last_changed": "2021-08-21T17:42:35.364889+00:00",
+                "last_updated": "2021-08-21T17:42:35.364889+00:00",
+                "context": {
+                    "id": "629048795ff99060ae9a1fe60d722153",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_14",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-14"
+                },
+                "last_changed": "2021-08-21T17:42:35.364951+00:00",
+                "last_updated": "2021-08-21T17:42:35.364951+00:00",
+                "context": {
+                    "id": "4459f5e76a1efd0c822a647e69c45260",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_15",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-15"
+                },
+                "last_changed": "2021-08-21T17:42:35.365012+00:00",
+                "last_updated": "2021-08-21T17:42:35.365012+00:00",
+                "context": {
+                    "id": "4e074e01a673b98d5ec1deca190c2bca",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_16",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-16"
+                },
+                "last_changed": "2021-08-21T17:42:35.365179+00:00",
+                "last_updated": "2021-08-21T17:42:35.365179+00:00",
+                "context": {
+                    "id": "7d477f944b1962d03d6e8207d571d852",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_17",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-17"
+                },
+                "last_changed": "2021-08-21T17:42:35.365249+00:00",
+                "last_updated": "2021-08-21T17:42:35.365249+00:00",
+                "context": {
+                    "id": "3e21caf9ce19a8d2e9b1e1ec1f3bb594",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_18",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-18"
+                },
+                "last_changed": "2021-08-21T17:42:35.365314+00:00",
+                "last_updated": "2021-08-21T17:42:35.365314+00:00",
+                "context": {
+                    "id": "f9fa4f3145ccc3c9cf65ad08f933450a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_19",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-19"
+                },
+                "last_changed": "2021-08-21T17:42:35.365380+00:00",
+                "last_updated": "2021-08-21T17:42:35.365380+00:00",
+                "context": {
+                    "id": "8b6b336355e83a1074917e38ee3312a5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_20",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-20"
+                },
+                "last_changed": "2021-08-21T17:42:35.365445+00:00",
+                "last_updated": "2021-08-21T17:42:35.365445+00:00",
+                "context": {
+                    "id": "75b5f87affa2213eca561c6fc00951e8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_21",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-21"
+                },
+                "last_changed": "2021-08-21T17:42:35.365507+00:00",
+                "last_updated": "2021-08-21T17:42:35.365507+00:00",
+                "context": {
+                    "id": "56f33635f4e12becd5ae685d90e649dc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_22",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-22"
+                },
+                "last_changed": "2021-08-21T17:42:35.365569+00:00",
+                "last_updated": "2021-08-21T17:42:35.365569+00:00",
+                "context": {
+                    "id": "54511ba8a40511dfdcebe5eb8366143a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_23",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-23"
+                },
+                "last_changed": "2021-08-21T17:42:35.365631+00:00",
+                "last_updated": "2021-08-21T17:42:35.365631+00:00",
+                "context": {
+                    "id": "e8d34461827de09f203ae38b1af196c9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_24",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-24"
+                },
+                "last_changed": "2021-08-21T17:42:35.365696+00:00",
+                "last_updated": "2021-08-21T17:42:35.365696+00:00",
+                "context": {
+                    "id": "37c121e7d3ddacbc6a47213e3194271a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_25",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-25"
+                },
+                "last_changed": "2021-08-21T17:42:35.365759+00:00",
+                "last_updated": "2021-08-21T17:42:35.365759+00:00",
+                "context": {
+                    "id": "9764a12a1d4f89406d896a59acda212e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_26",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-26"
+                },
+                "last_changed": "2021-08-21T17:42:35.365824+00:00",
+                "last_updated": "2021-08-21T17:42:35.365824+00:00",
+                "context": {
+                    "id": "1c6e69b8e825c126de7f108e47fc514f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_27",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-27"
+                },
+                "last_changed": "2021-08-21T17:42:35.365886+00:00",
+                "last_updated": "2021-08-21T17:42:35.365886+00:00",
+                "context": {
+                    "id": "2c63240ba9785d60203e538bedfeb528",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_28",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-28"
+                },
+                "last_changed": "2021-08-21T17:42:35.365947+00:00",
+                "last_updated": "2021-08-21T17:42:35.365947+00:00",
+                "context": {
+                    "id": "25e3157253f30d5afa3926dc85461486",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_29",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-29"
+                },
+                "last_changed": "2021-08-21T17:42:35.366013+00:00",
+                "last_updated": "2021-08-21T17:42:35.366013+00:00",
+                "context": {
+                    "id": "81036e5345af924200abe5f5b4212a4e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_30",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-30"
+                },
+                "last_changed": "2021-08-21T17:42:35.366075+00:00",
+                "last_updated": "2021-08-21T17:42:35.366075+00:00",
+                "context": {
+                    "id": "1e854165e452dfe4e0175787fb8e75a6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.switch_32do_1_31",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Switch-32DO-1-31"
+                },
+                "last_changed": "2021-08-21T17:42:35.366136+00:00",
+                "last_updated": "2021-08-21T17:42:35.366136+00:00",
+                "context": {
+                    "id": "1d4262e26d577f8a311561e5dc50ba1f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:45:47.401519+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.binary_sensor_0",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "binary sensor 0"
+                },
+                "last_changed": "2021-08-21T17:35:23.239537+00:00",
+                "last_updated": "2021-08-21T17:35:23.239537+00:00",
+                "context": {
+                    "id": "171bdee297d3eadefe2cbd6ff5c112d8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:42:31.125390+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.binary_sensor_1",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "binary sensor 1"
+                },
+                "last_changed": "2021-08-21T17:35:23.239603+00:00",
+                "last_updated": "2021-08-21T17:35:23.239603+00:00",
+                "context": {
+                    "id": "b48023a57b4c08e48fa2310f3d769fc5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:42:31.125390+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.test_0",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "test 0"
+                },
+                "last_changed": "2021-08-21T17:17:41.055317+00:00",
+                "last_updated": "2021-08-21T17:17:41.055317+00:00",
+                "context": {
+                    "id": "0d85701cfd833ed63564d9278549cd58",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:35:19.068189+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.test_1",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "test 1"
+                },
+                "last_changed": "2021-08-21T17:17:41.055396+00:00",
+                "last_updated": "2021-08-21T17:17:41.055396+00:00",
+                "context": {
+                    "id": "896031ec94a8d3cd75f62198f19e9dc1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:35:19.068189+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.test_2",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "test_2"
+                },
+                "last_changed": "2021-08-21T16:34:06.479139+00:00",
+                "last_updated": "2021-08-21T16:34:06.479139+00:00",
+                "context": {
+                    "id": "278f9a930b58e53a20f9fa9543bd709b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:17:36.892584+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.test_3",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "test_3"
+                },
+                "last_changed": "2021-08-21T16:34:06.479217+00:00",
+                "last_updated": "2021-08-21T16:34:06.479217+00:00",
+                "context": {
+                    "id": "a887d502b164dd4bec933032529c5e79",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T17:17:36.892584+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.test_0_2",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "test_0"
+                },
+                "last_changed": "2021-08-21T09:07:08.204662+00:00",
+                "last_updated": "2021-08-21T09:07:08.204662+00:00",
+                "context": {
+                    "id": "47d5422c8a1436318a0b8ae1c293c13b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T09:08:00.330350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.binary_sensor_0",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "binary_sensor_0"
+                },
+                "last_changed": "2021-08-21T07:35:52.494511+00:00",
+                "last_updated": "2021-08-21T07:35:52.494511+00:00",
+                "context": {
+                    "id": "5a24fb383ffae9cb4893f9e26c2fa584",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T07:39:37.566942+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.binary_sensor_1",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "binary_sensor_1"
+                },
+                "last_changed": "2021-08-21T07:34:29.407017+00:00",
+                "last_updated": "2021-08-21T07:34:29.407017+00:00",
+                "context": {
+                    "id": "a14a1961e2d3917686115d76f54cfe1a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-08-21T07:39:37.566942+00:00"
+        }
+    ]
+}

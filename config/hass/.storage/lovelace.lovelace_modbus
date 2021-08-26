@@ -1,0 +1,101 @@
+{
+    "version": 1,
+    "key": "lovelace.lovelace_modbus",
+    "data": {
+        "config": {
+            "title": "Villa Tessore",
+            "views": [
+                {
+                    "path": "32do-1",
+                    "title": "32DO-1",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "binary_sensor.sensor_32do_1_000",
+                                "binary_sensor.sensor_32do_1_001",
+                                "binary_sensor.sensor_32do_1_002",
+                                "binary_sensor.sensor_32do_1_003",
+                                "binary_sensor.sensor_32do_1_004",
+                                "binary_sensor.sensor_32do_1_005",
+                                "binary_sensor.sensor_32do_1_006",
+                                "binary_sensor.sensor_32do_1_007",
+                                "binary_sensor.sensor_32do_1_008",
+                                "binary_sensor.sensor_32do_1_009",
+                                "binary_sensor.sensor_32do_1_010",
+                                "binary_sensor.sensor_32do_1_011",
+                                "binary_sensor.sensor_32do_1_012",
+                                "binary_sensor.sensor_32do_1_013",
+                                "binary_sensor.sensor_32do_1_014",
+                                "binary_sensor.sensor_32do_1_015",
+                                "binary_sensor.sensor_32do_1_016",
+                                "binary_sensor.sensor_32do_1_017",
+                                "binary_sensor.sensor_32do_1_018",
+                                "binary_sensor.sensor_32do_1_019",
+                                "binary_sensor.sensor_32do_1_020",
+                                "binary_sensor.sensor_32do_1_021",
+                                "binary_sensor.sensor_32do_1_022",
+                                "binary_sensor.sensor_32do_1_023",
+                                "binary_sensor.sensor_32do_1_024",
+                                "binary_sensor.sensor_32do_1_025",
+                                "binary_sensor.sensor_32do_1_026",
+                                "binary_sensor.sensor_32do_1_027",
+                                "binary_sensor.sensor_32do_1_028",
+                                "binary_sensor.sensor_32do_1_029",
+                                "binary_sensor.sensor_32do_1_030",
+                                "binary_sensor.sensor_32do_1_031",
+                                "binary_sensor.updater"
+                            ],
+                            "title": "Sensore binario"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "switch.switch_32do_1_000",
+                                "switch.switch_32do_1_001",
+                                "switch.switch_32do_1_002",
+                                "switch.switch_32do_1_003",
+                                "switch.switch_32do_1_004",
+                                "switch.switch_32do_1_005",
+                                "switch.switch_32do_1_006",
+                                "switch.switch_32do_1_007",
+                                "switch.switch_32do_1_008",
+                                "switch.switch_32do_1_009",
+                                "switch.switch_32do_1_010",
+                                "switch.switch_32do_1_011",
+                                "switch.switch_32do_1_012",
+                                "switch.switch_32do_1_013",
+                                "switch.switch_32do_1_014",
+                                "switch.switch_32do_1_015",
+                                "switch.switch_32do_1_016",
+                                "switch.switch_32do_1_017",
+                                "switch.switch_32do_1_018",
+                                "switch.switch_32do_1_019",
+                                "switch.switch_32do_1_020",
+                                "switch.switch_32do_1_021",
+                                "switch.switch_32do_1_022",
+                                "switch.switch_32do_1_023",
+                                "switch.switch_32do_1_024",
+                                "switch.switch_32do_1_025",
+                                "switch.switch_32do_1_026",
+                                "switch.switch_32do_1_027",
+                                "switch.switch_32do_1_028",
+                                "switch.switch_32do_1_029",
+                                "switch.switch_32do_1_030",
+                                "switch.switch_32do_1_031"
+                            ],
+                            "title": "Interruttore"
+                        }
+                    ]
+                },
+                {
+                    "title": "32DI-1",
+                    "path": "32di-1",
+                    "badges": [],
+                    "cards": []
+                }
+            ]
+        }
+    }
+}

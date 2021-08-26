@@ -1,0 +1,74 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "e3b7ddf98817e591d57ac4e7e1850e03"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "97cb37c6045c36718dcdd7e1b5a135f4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e81eac96ef3f49562366aaed923e57e4"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.bf08c7f28f41dfa2d66hkn"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "light",
+                "name": "luce",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "bb7c1d3e6052c52085ad7c695d71f42f",
+                "via_device_id": null,
+                "area_id": "soggiorno",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a9d8fc5e72f8d415aa6ea79cc594619d"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "7684672bb731bd69"
+                    ]
+                ],
+                "manufacturer": "HMD Global",
+                "model": "Nokia 6.1",
+                "name": "Nokia 6.1",
+                "sw_version": "29",
+                "entry_type": null,
+                "id": "69d78fb294a040613d01dd1ed3a5e930",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

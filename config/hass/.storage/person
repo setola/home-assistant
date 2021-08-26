@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Emanuele",
+                "user_id": "99da9eaf491b48e2821b78583b4db5e2",
+                "device_trackers": [
+                    "device_tracker.nokia_6_1"
+                ],
+                "id": "emanuele"
+            }
+        ]
+    }
+}

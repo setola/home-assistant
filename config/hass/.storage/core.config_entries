@@ -1,0 +1,71 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "e3b7ddf98817e591d57ac4e7e1850e03",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e81eac96ef3f49562366aaed923e57e4",
+                "version": 1,
+                "domain": "tuya",
+                "title": "setola@gmail.com",
+                "data": {
+                    "country_code": "39",
+                    "password": "T3xrulez",
+                    "platform": "smart_life",
+                    "username": "setola@gmail.com"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "a9d8fc5e72f8d415aa6ea79cc594619d",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Nokia 6.1",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.6.2-full (694)",
+                    "device_name": "Nokia 6.1",
+                    "manufacturer": "HMD Global",
+                    "model": "Nokia 6.1",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "fIQzJYC-QTS8w_gAPcFqYZ:APA91bFk9U_ImZqFOn9mGAbkTOPCoJKMzuO7EmUFUAtdL-wTl7Z3l6SEJZD4KiMchejfOuPzHqQm73ps_THpv3OyDKVly3q-OwgjLiNHhyHiwr6MX5qidcRkzNeyJDbZFrdwXLZbEa7N"
+                    },
+                    "device_id": "7684672bb731bd69",
+                    "webhook_id": "e1326138a8190087df2c956aa3034323d6ba357802bc0c3bbd3213de356aa7eb",
+                    "user_id": "99da9eaf491b48e2821b78583b4db5e2"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-7684672bb731bd69",
+                "disabled_by": null
+            }
+        ]
+    }
+}

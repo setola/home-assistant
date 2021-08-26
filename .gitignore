@@ -4,7 +4,5 @@
 /config/esphome/secrets.yaml
 /config/*_bck/*
 !/config/hass/**/*.yaml
-/config/hass/.cloud
-/config/hass/.storage
 /config/hass/secrets.yaml
 /config/hass/known_devices.yaml

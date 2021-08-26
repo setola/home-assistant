@@ -1,0 +1,40 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Soggiorno",
+                "id": "soggiorno"
+            },
+            {
+                "name": "Cucina",
+                "id": "cucina"
+            },
+            {
+                "name": "Camera da letto",
+                "id": "camera_da_letto"
+            },
+            {
+                "name": "Bagno",
+                "id": "bagno"
+            },
+            {
+                "name": "Soffitta",
+                "id": "soffitta"
+            },
+            {
+                "name": "Giardino",
+                "id": "giardino"
+            },
+            {
+                "name": "Bagnetto",
+                "id": "bagnetto"
+            },
+            {
+                "name": "Magazzino",
+                "id": "magazzino"
+            }
+        ]
+    }
+}
