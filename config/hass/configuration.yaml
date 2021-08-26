@@ -11,4 +11,4 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
 modbus: !include modbus/devices.yaml
-modbus roof covers: !include modbus/covers.yaml
+cover modbus roof: !include modbus/covers.yaml
